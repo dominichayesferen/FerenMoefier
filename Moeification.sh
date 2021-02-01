@@ -513,7 +513,7 @@ Terminal=false
 NoDisplay=true
 Icon=preferences-desktop-theme
 Type=Application
-X-KDE-autostart-after=panel" >> "/home/$folder/.config/autostart/ferenmoepostinst.desktop"
+X-KDE-autostart-after=panel" > "/home/$folder/.config/autostart/ferenmoepostinst.desktop"
     chown -h "$folder":"$folder" "/home/$folder/.config/autostart/ferenmoepostinst.desktop"
 fi; done
 cd /tmp/moecontents
