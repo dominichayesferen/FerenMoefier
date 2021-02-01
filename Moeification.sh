@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ "$(whoami)" != "root" ]; then
+    echo "You need to run this as root: sudo !!"
+    exit 1
+fi
+
 RED=`tput setaf 1`
 NC=`tput sgr0`
 FULLPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
@@ -366,7 +371,7 @@ fi
 if [ -d /usr/share/user-manager/avatars ]; then
     mkdir /usr/share/user-manager/avatars/Moe > /dev/null 2>&1
     cat /tmp/moecontents/.face > "/usr/share/user-manager/avatars/Moe/Smol Nozomi.png"
-done
+fi
 if [ -d /usr/share/plasma/avatars ]; then
     cat /tmp/moecontents/.face > "/usr/share/plasma/avatars/Smol Nozomi.png"
 fi
@@ -468,9 +473,24 @@ if [ -d /usr/share/cinnamon-background-properties ]; then
     cp -f "$FULLPATH/resources/Moe-cinnamon.xml" /usr/share/cinnamon-background-properties/Moe-cinnamon.xml > /dev/null 2>&1
 fi
 
-clear
 
-echo "Updating Initramfs, and rebooting...
+if [ -d "/usr/share/plasma/look-and-feel" ]; then
+echo "
+Installing Global Theme (KDE Plasma)...
+"
+
+cp -Rf "$FULLPATH/resources/plasmagt" "/usr/share/plasma/look-and-feel/org.moe.default" > /dev/null 2>&1
+if [ -d /usr/share/plasma/look-and-feel/org.feren.default ]; then
+    cp -Rf /usr/share/plasma/look-and-feel/org.feren.default/contents/components /usr/share/plasma/look-and-feel/org.moe.default/contents/components
+    cp -Rf /usr/share/plasma/look-and-feel/org.feren.default/contents/lockscreen /usr/share/plasma/look-and-feel/org.moe.default/contents/lockscreen
+    cp -Rf /usr/share/plasma/look-and-feel/org.feren.default/contents/logout /usr/share/plasma/look-and-feel/org.moe.default/contents/logout
+    cp -Rf /usr/share/plasma/look-and-feel/org.feren.default/contents/osd /usr/share/plasma/look-and-feel/org.moe.default/contents/osd
+fi
+chmod 755 -R "/usr/share/plasma/look-and-feel/org.moe.default" > /dev/null 2>&1
+fi
+
+echo "
+Updating Initramfs, and rebooting...
 "
 update-initramfs -u -k all > /dev/null 2>&1
 
