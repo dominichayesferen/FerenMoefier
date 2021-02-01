@@ -57,126 +57,126 @@ rm -rf /usr/share/weebpapers
 mkdir /usr/share/weebpapers > /dev/null 2>&1
 
 
-wget http://blog-imgs-36.fc2.com/a/a/n/aanimekabegami/68e9328c.jpg -O "/usr/share/weebpapers/(Feren Moefier) Moebuntu Default.jpg" > /dev/null 2>&1
+wget http://blog-imgs-36.fc2.com/a/a/n/aanimekabegami/68e9328c.jpg -O "/usr/share/weebpapers/(Moe) Moebuntu Default.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Moebuntu Default wallpaper! Aborting now."
     exit 1
 else
     echo "Downloaded the Moebuntu 'Default' wallpaper."
 fi
-wget https://i.ytimg.com/vi/PsARNhjWdHc/maxresdefault.jpg -O "/usr/share/weebpapers/(Feren Moefier) Mari.jpg" > /dev/null 2>&1
+wget https://i.ytimg.com/vi/PsARNhjWdHc/maxresdefault.jpg -O "/usr/share/weebpapers/(Moe) Mari.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Mari wallpaper! It's Not Joke. Aborting."
     exit 1
 else
     echo "Downloaded the Mari wallpaper."
 fi
-wget https://i.redd.it/0k81wur3x8a21.png -O "/usr/share/weebpapers/(Feren Moefier) Rikka Windows.png" > /dev/null 2>&1
+wget https://i.redd.it/0k81wur3x8a21.png -O "/usr/share/weebpapers/(Moe) Rikka Windows.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Rikka uncovering Windows wallpaper! Aborting now."
     exit 1
 else
     echo "Downloaded the Rikka uncovering Windows wallpaper."
 fi
-wget https://oboitut.com/uploads/posts/oboitut.com_10989.jpg -O "/usr/share/weebpapers/(Feren Moefier) Rikka and Yuuta Fantasy.jpg" > /dev/null 2>&1
+wget https://oboitut.com/uploads/posts/oboitut.com_10989.jpg -O "/usr/share/weebpapers/(Moe) Rikka and Yuuta Fantasy.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Rikka and Yuuta Fantasy wallpaper! Guess it was just a fantasy after all... Aborting now."
     exit 1
 else
     echo "Downloaded the Rikka and Yuuta Fantasy wallpaper."
 fi
-wget https://i.imgur.com/WdqYXph.jpg -O "/usr/share/weebpapers/(Feren Moefier) Rikka Train Station.jpg" > /dev/null 2>&1
+wget https://i.imgur.com/WdqYXph.jpg -O "/usr/share/weebpapers/(Moe) Rikka Train Station.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Rikka at Train Station wallpaper! Aborting now."
     exit 1
 else
     echo "Downloaded the Rikka at Train Station wallpaper. TAKE ME ONNNNNNNNNN!"
 fi
-wget https://cdn.discordapp.com/attachments/741701321874472990/787449057488011294/clannad_wallpaper_at_the_foot_of_the_hill_by_mr123spiky_d8kilp5.jpg -O "/usr/share/weebpapers/(Feren Moefier) CLANNAD.jpg" > /dev/null 2>&1
+wget https://cdn.discordapp.com/attachments/741701321874472990/787449057488011294/clannad_wallpaper_at_the_foot_of_the_hill_by_mr123spiky_d8kilp5.jpg -O "/usr/share/weebpapers/(Moe) CLANNAD.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the CLANNAD wallpaper! Aborting now."
     exit 1
 else
     echo "Downloaded the CLANNAD wallpaper."
 fi
-wget http://images4.fanpop.com/image/photos/19300000/Hi-Kyubey-mahou-shoujo-madoka-magica-19305621-1500-1033.jpg -O "/usr/share/weebpapers/(Feren Moefier) Madoka Magica MCs.jpg" > /dev/null 2>&1
+wget http://images4.fanpop.com/image/photos/19300000/Hi-Kyubey-mahou-shoujo-madoka-magica-19305621-1500-1033.jpg -O "/usr/share/weebpapers/(Moe) Madoka Magica MCs.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Madoka Magica MCs wallpaper! That darn entropy, probably. Aborting now."
     exit 1
 else
     echo "Downloaded the Madoka Magica Main Characters wallpaper."
 fi
-wget https://images4.alphacoders.com/296/thumb-1920-296026.jpg -O "/usr/share/weebpapers/(Feren Moefier) Best Girl from Meduka.jpg" > /dev/null 2>&1
+wget https://images4.alphacoders.com/296/thumb-1920-296026.jpg -O "/usr/share/weebpapers/(Moe) Best Girl from Meduka.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Best Madoka Magica Girl wallpaper! Being meguka is suffering. Aborting now."
     exit 1
 else
     echo "Downloaded the Best Madoka Magica Girl wallpaper."
 fi
-wget https://i2.hdslb.com/bfs/archive/18c16a4675b6106fc4001074040f31c5d872b915.jpg -O "/usr/share/weebpapers/(Feren Moefier) anohana.jpg" > /dev/null 2>&1
+wget https://i2.hdslb.com/bfs/archive/18c16a4675b6106fc4001074040f31c5d872b915.jpg -O "/usr/share/weebpapers/(Moe) anohana.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Anohana wallpaper! Respect her privacy, I guess. Aborting now."
     exit 1
 else
     echo "Downloaded the Anohana wallpaper."
 fi
-wget https://i.imgur.com/6gtDb9r.jpg -O "/usr/share/weebpapers/(Feren Moefier) Windows 7 Waifu.jpg" > /dev/null 2>&1
+wget https://i.imgur.com/6gtDb9r.jpg -O "/usr/share/weebpapers/(Moe) Windows 7 Waifu.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Windows 7 Waifu wallpaper! Leave her be now she graduated, smh. Aborting now."
     exit 1
 else
     echo "Downloaded the Windows 7 Waifu wallpaper."
 fi
-wget https://i.redd.it/l16umf7245901.jpg -O "/usr/share/weebpapers/(Feren Moefier) Windows 10 Waifu.jpg" > /dev/null 2>&1
+wget https://i.redd.it/l16umf7245901.jpg -O "/usr/share/weebpapers/(Moe) Windows 10 Waifu.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Windows 10 Waifu wallpaper! Probably too bloated to carry. Aborting now."
     exit 1
 else
     echo "Downloaded the Windows 10 Waifu wallpaper."
 fi
-wget https://cdn.discordapp.com/attachments/161953839853993984/780224215654989824/24.jpg -O "/usr/share/weebpapers/(Feren Moefier) Yuuta.jpg" > /dev/null 2>&1
+wget https://cdn.discordapp.com/attachments/161953839853993984/780224215654989824/24.jpg -O "/usr/share/weebpapers/(Moe) Yuuta.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Yuuta wallpaper! Don't call him Dark Flame Master now, will ya? Aborting now."
     exit 1
 else
     echo "Downloaded the Yuuta wallpaper."
 fi
-wget https://cdn.discordapp.com/attachments/161953839853993984/776821283240280104/21.jpg -O "/usr/share/weebpapers/(Feren Moefier) More Chuuni.jpg" > /dev/null 2>&1
+wget https://cdn.discordapp.com/attachments/161953839853993984/776821283240280104/21.jpg -O "/usr/share/weebpapers/(Moe) More Chuuni.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading another Chunibyo wallpaper! What delusional circumstances, eh. Aborting now."
     exit 1
 else
     echo "Downloaded another Chunibyo wallpaper."
 fi
-wget https://i.pinimg.com/originals/12/02/9f/12029fd2ff5bf26c6005c2c1573bdf6f.jpg -O "/usr/share/weebpapers/(Feren Moefier) Dango dango dango dango.jpg" > /dev/null 2>&1
+wget https://i.pinimg.com/originals/12/02/9f/12029fd2ff5bf26c6005c2c1573bdf6f.jpg -O "/usr/share/weebpapers/(Moe) Dango dango dango dango.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "My apologies, I was crying too much to successfully download the Dango wallpaper. Aborting now."
     exit 1
 else
     echo "Downloaded the Dango dango dango dango wallpaper."
 fi
-wget https://i.pinimg.com/originals/bd/8d/bf/bd8dbf8fdfc559870b80a4d968b724b8.jpg -O "/usr/share/weebpapers/(Feren Moefier) No Escape From Snow Halation.jpg" > /dev/null 2>&1
+wget https://i.pinimg.com/originals/bd/8d/bf/bd8dbf8fdfc559870b80a4d968b724b8.jpg -O "/usr/share/weebpapers/(Moe) No Escape From Snow Halation.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Snow Halation wallpaper! You've escaped for now. Aborting now."
     exit 1
 else
     echo "Downloaded the Snow Halation wallpaper."
 fi
-wget https://cdn.discordapp.com/attachments/473183956137934858/782758685368909864/dazhgft-c6a57dc7-9971-4bbb-aea7-b7336e71ce23.png -O "/usr/share/weebpapers/(Feren Moefier) Minimal K-On.png" > /dev/null 2>&1
+wget https://cdn.discordapp.com/attachments/473183956137934858/782758685368909864/dazhgft-c6a57dc7-9971-4bbb-aea7-b7336e71ce23.png -O "/usr/share/weebpapers/(Moe) Minimal K-On.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the K-On! wallpaper! Aborting now."
     exit 1
 else
     echo "Downloaded the K-On! wallpaper."
 fi
-wget https://cdn.tatenoe.com/diary-of-our-days-at-the-breakwater/diary-of-our-days-at-the-breakwater-3-1280x720.jpg -O "/usr/share/weebpapers/(Feren Moefier) Diary of Our Days at the Breakwater.jpg" > /dev/null 2>&1
+wget https://cdn.tatenoe.com/diary-of-our-days-at-the-breakwater/diary-of-our-days-at-the-breakwater-3-1280x720.jpg -O "/usr/share/weebpapers/(Moe) Diary of Our Days at the Breakwater.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading a Diary of Our Days at the Breakwater wallpaper! I guess the installer got stuck at this part. That sucks. Aborting now."
     exit 1
 else
     echo "Downloaded a Diary of Our Days at the Breakwater wallpaper."
 fi
-wget https://i.imgur.com/Ckgx70Q.jpg -O "/usr/share/weebpapers/(Feren Moefier) Diary of Our Days at the Breakwater 2.jpg" > /dev/null 2>&1
+wget https://i.imgur.com/Ckgx70Q.jpg -O "/usr/share/weebpapers/(Moe) Diary of Our Days at the Breakwater 2.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading another Diary of Our Days at the Breakwater wallpaper! Aborting now."
     exit 1
@@ -188,28 +188,28 @@ if [ "$MAJORSPOILERS" = 1 ]; then
 echo "Downloading ${RED}Major Spoiler${NC} wallpapers... ${RED}The snow is falling.${NC}
 "
 
-wget https://livedoor.blogimg.jp/poterobo/imgs/e/4/e4cd77b1.jpg -O "/usr/share/weebpapers/(Feren Moefier) The Invisible Boundary Lines.jpg" > /dev/null 2>&1
+wget https://livedoor.blogimg.jp/poterobo/imgs/e/4/e4cd77b1.jpg -O "/usr/share/weebpapers/(Moe) The Invisible Boundary Lines.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Sorry, I was too busy trying not to cry that I didn't successfully download the ${RED}Invisible Boundary Lines${NC} wallpaper. Aborting now."
     exit 1
 else
     echo "Downloaded the ${RED}Invisible Boundary Lines${NC} wallpaper."
 fi
-wget https://i.ytimg.com/vi/hlnrN7gdF1w/maxresdefault.jpg -O "/usr/share/weebpapers/(Feren Moefier) oh no.jpg" > /dev/null 2>&1
+wget https://i.ytimg.com/vi/hlnrN7gdF1w/maxresdefault.jpg -O "/usr/share/weebpapers/(Moe) oh no.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading a ${RED}CLANNAD After Story${NC} wallpaper! ${RED}Yet, the snow falls.${NC} Aborting now."
     exit 1
 else
     echo "Downloaded a ${RED}CLANNAD After Story${NC} wallpaper."
 fi
-wget https://hdwallpaperim.com/wp-content/uploads/2017/08/22/81240-Clannad.jpg -O "/usr/share/weebpapers/(Feren Moefier) CLANNAD Family.jpg" > /dev/null 2>&1
+wget https://hdwallpaperim.com/wp-content/uploads/2017/08/22/81240-Clannad.jpg -O "/usr/share/weebpapers/(Moe) CLANNAD Family.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading another ${RED}CLANNAD After Story${NC} wallpaper! ${RED}Something's gonna happen to that happy family, won't it?${NC} Aborting now."
     exit 1
 else
     echo "Downloaded another ${RED}CLANNAD After Story${NC} wallpaper."
 fi
-wget https://pbs.twimg.com/media/C7HfgHDW4AI3ulY.jpg -O "/usr/share/weebpapers/(Feren Moefier) Never Forget.jpg" > /dev/null 2>&1
+wget https://pbs.twimg.com/media/C7HfgHDW4AI3ulY.jpg -O "/usr/share/weebpapers/(Moe) Never Forget.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading another ${RED}anohana${NC} wallpaper! ${RED}Don't forget about her.${NC} Aborting now."
     exit 1
@@ -395,7 +395,7 @@ fi
 fi
     
 echo "Linking login screen background from GNOME Shell theme into wallpapers directory..."
-ln -sf /usr/share/themes/MoePinkShell3/gnome-shell/assets/moebuntu_bg.png "/usr/share/weebpapers/(Feren Moefier) Login Screen.png" > /dev/null 2>&1
+ln -sf /usr/share/themes/MoePinkShell3/gnome-shell/assets/moebuntu_bg.png "/usr/share/weebpapers/(Moe) Login Screen.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured linking the login screen background into wallpaper directory. Aborting now."
     exit 1
@@ -411,17 +411,17 @@ Configuring login screen (Slick Greeter)...
 if ! grep -q 'theme-name=' /etc/lightdm/slick-greeter.conf; then
     echo 'theme-name=Moe-Pink15S' >> /etc/lightdm/slick-greeter.conf
 else
-    sed -i 's/theme-name=.*/theme-name=Moe-Pink15S/g' /etc/lightdm/slick-greeter.conf
+    sed -i 's/theme-name=.*/theme-name=Moe-Pink15S/g' /etc/lightdm/slick-greeter.conf > /dev/null 2>&1
 fi
 if ! grep -q 'icon-theme-name=' /etc/lightdm/slick-greeter.conf; then
     echo 'icon-theme-name=MoePinkIcons' >> /etc/lightdm/slick-greeter.conf
 else
-    sed -i 's/icon-theme-name=.*/icon-theme-name=MoePinkIcons/g' /etc/lightdm/slick-greeter.conf
+    sed -i 's/icon-theme-name=.*/icon-theme-name=MoePinkIcons/g' /etc/lightdm/slick-greeter.conf > /dev/null 2>&1
 fi
 if ! grep -q 'background=' /etc/lightdm/slick-greeter.conf; then
     echo 'background=/usr/share/weebpapers/Login Screen.png' >> /etc/lightdm/slick-greeter.conf
 else
-    sed -i 's%background=.*%background=/usr/share/weebpapers/Login Screen.png%g' /etc/lightdm/slick-greeter.conf
+    sed -i 's%background=.*%background=/usr/share/weebpapers/Login Screen.png%g' /etc/lightdm/slick-greeter.conf > /dev/null 2>&1
 fi
 echo "Configured login screen (Slick Greeter)."
 
@@ -433,18 +433,18 @@ Installing wallpapers...
 
 if [ -d "/usr/share/wallpapers" ] || [ -d "/usr/share/xfce4/backdrops" ] || [ -d "/usr/share/backgrounds" ] || [ -d "/usr/share/lubuntu/wallpapers" ]; then
 IFS=$'\n'       # make newlines the only separator
+if [ -d "/usr/share/wallpapers" ]; then
+    ln -sf /usr/share/weebpapers /usr/share/wallpapers/FerenMoefier > /dev/null 2>&1
+fi
 for file in /usr/share/weebpapers/*; do
-    if [ -d "/usr/share/wallpapers" ]; then
-        ln -sf /usr/share/weebpapers /usr/share/wallpapers/FerenMoefier
-    fi
     if [ -d "/usr/share/xfce4/backdrops" ]; then
-        ln -sf "$file" /usr/share/xfce4/backdrops/
+        ln -sf "$file" /usr/share/xfce4/backdrops/ > /dev/null 2>&1
     fi
     if [ -d "/usr/share/backgrounds" ]; then
-        ln -sf "$file" /usr/share/backgrounds/
+        ln -sf "$file" /usr/share/backgrounds/ > /dev/null 2>&1
     fi
     if [ -d "/usr/share/lubuntu/wallpapers" ]; then
-        ln -sf "$file" /usr/share/lubuntu/wallpapers/
+        ln -sf "$file" /usr/share/lubuntu/wallpapers/ > /dev/null 2>&1
     fi
 done
 IFS=$oldIFS
@@ -456,15 +456,15 @@ Installing colour scheme...
 "
 
 cat "$FULLPATH/resources/FerenMoefier.colors" > /usr/share/color-schemes/FerenMoefier.colors
-chmod 755 -R /usr/share/color-schemes
+chmod 755 -R /usr/share/color-schemes > /dev/null 2>&1
 fi
 
     
 if [ -d /usr/share/gnome-background-properties ]; then
-    cp -f "$FULLPATH/resources/Moe-gnome.xml" /usr/share/gnome-background-properties/Moe-gnome.xml
+    cp -f "$FULLPATH/resources/Moe-gnome.xml" /usr/share/gnome-background-properties/Moe-gnome.xml > /dev/null 2>&1
 fi
 if [ -d /usr/share/cinnamon-background-properties ]; then
-    cp -f "$FULLPATH/resources/Moe-cinnamon.xml" /usr/share/cinnamon-background-properties/Moe-cinnamon.xml
+    cp -f "$FULLPATH/resources/Moe-cinnamon.xml" /usr/share/cinnamon-background-properties/Moe-cinnamon.xml > /dev/null 2>&1
 fi
 
 clear
