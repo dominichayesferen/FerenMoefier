@@ -357,18 +357,19 @@ cd /tmp/moecontents
 echo "Installing Smol Nozomi avatar..."
 oldIFS=$IFS
 IFS=$'\n'       # make newlines the only separator
-for pfp in $(find /usr/share/pixmaps/faces -type f); do
-    cat /tmp/.face > "$pfp"
+if [ -d /usr/share/pixmaps/faces ]; then
+    cat /tmp/moecontents/.face > "/usr/share/pixmaps/faces/Smol Nozomi.png"
+fi
+if [ -d /usr/share/cinnamon/faces ]; then
+    cat /tmp/moecontents/.face > "/usr/share/cinnamon/faces/Smol Nozomi.png"
+fi
+if [ -d /usr/share/user-manager/avatars ]; then
+    mkdir /usr/share/user-manager/avatars/Moe > /dev/null 2>&1
+    cat /tmp/moecontents/.face > "/usr/share/user-manager/avatars/Moe/Smol Nozomi.png"
 done
-for pfp in $(find /usr/share/cinnamon/faces -type f); do
-    cat /tmp/.face > "$pfp"
-done
-for pfp in $(find /usr/share/user-manager/avatars -type f); do
-    cat /tmp/.face > "$pfp"
-done
-for pfp in $(find /usr/share/plasma/avatars -type f); do
-    cat /tmp/.face > "$pfp"
-done
+if [ -d /usr/share/plasma/avatars ]; then
+    cat /tmp/moecontents/.face > "/usr/share/plasma/avatars/Smol Nozomi.png"
+fi
 IFS=$oldIFS
 
 
