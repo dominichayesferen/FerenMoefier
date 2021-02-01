@@ -425,9 +425,9 @@ else
     sed -i 's/icon-theme-name=.*/icon-theme-name=MoePinkIcons/g' /etc/lightdm/slick-greeter.conf > /dev/null 2>&1
 fi
 if ! grep -q 'background=' /etc/lightdm/slick-greeter.conf; then
-    echo 'background=/usr/share/weebpapers/Login Screen.png' >> /etc/lightdm/slick-greeter.conf
+    echo 'background=/usr/share/weebpapers/(Moe) Login Screen.png' >> /etc/lightdm/slick-greeter.conf
 else
-    sed -i 's%background=.*%background=/usr/share/weebpapers/Login Screen.png%g' /etc/lightdm/slick-greeter.conf > /dev/null 2>&1
+    sed -i 's%background=.*%background=/usr/share/weebpapers/(Moe) Login Screen.png%g' /etc/lightdm/slick-greeter.conf > /dev/null 2>&1
 fi
 echo "Configured login screen (Slick Greeter)."
 
@@ -488,6 +488,35 @@ if [ -d /usr/share/plasma/look-and-feel/org.feren.default ]; then
 fi
 chmod 755 -R "/usr/share/plasma/look-and-feel/org.moe.default" > /dev/null 2>&1
 fi
+
+echo "
+Installing postinst...
+"
+cp -f "$FULLPATH/resources/ferenmoefierpostinst" "/usr/bin/ferenmoefierpostinst" > /dev/null 2>&1
+chmod +x "/usr/bin/ferenmoefierpostinst" > /dev/null 2>&1
+echo "
+Running postinst next login(s)...
+"
+cd /home
+for folder in *; do if id "$folder" &>/dev/null; then
+    if [ ! -d "/home/$folder/.config" ]; then
+        mkdir "/home/$folder/.config"; chown -h "$folder":"$folder" "/home/$folder/.config"
+    fi
+    if [ ! -d "/home/$folder/.config/autostart" ]; then
+        mkdir "/home/$folder/.config/autostart"; chown -h "$folder":"$folder" "/home/$folder/.config/autostart"
+    fi
+
+    echo "[Desktop Entry]
+Name=Moefier Postinst
+Exec=/usr/bin/ferenmoefierpostinst
+Terminal=false
+NoDisplay=true
+Icon=preferences-desktop-theme
+Type=Application
+X-KDE-autostart-after=panel" >> "/home/$folder/.config/autostart/ferenmoepostinst.desktop"
+    chown -h "$folder":"$folder" "/home/$folder/.config/autostart/ferenmoepostinst.desktop"
+fi; done
+cd /tmp/moecontents
 
 echo "
 Updating Initramfs, and rebooting...

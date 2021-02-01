@@ -1,0 +1,74 @@
+#!/bin/bash
+
+sleep 10
+IFS=$'\n'       # make newlines the only separator
+
+if [ -f /usr/bin/lookandfeeltool ]; then
+    lookandfeeltool -a org.moe.default
+fi
+
+if [ -f /usr/bin/qdbus ]; then
+    qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript '
+    var allDesktops = desktops();
+    print (allDesktops);
+    for (i=0;i<allDesktops.length;i++) {{
+        d = allDesktops[i];
+        d.wallpaperPlugin = "org.kde.image";
+        d.currentConfigGroup = Array("Wallpaper",
+                                     "org.kde.image",
+                                     "General");
+        d.writeConfig("Image", "file:///usr/share/weebpapers/(Moe) Moebuntu Default.jpg")
+    }}
+'
+fi
+
+if [ -f /usr/bin/xfconf-query ]; then
+    xfconf-query -c xsettings -np /Net/ThemeName -t string -s Moe-Pink15S
+    xfconf-query -c xsettings -np /Net/IconThemeName -t string -s MoePinkIcons
+    xfconf-query -c xfwm4 -np /general/theme -t string -s Moe-Pink15S
+    for item in $(xfconf-query -c xfce4-desktop -l); do
+        if [[ "$item" == "/backdrop/screen"*"/image-path" ]]; then
+            xfconf-query -c xfce4-desktop -np "$item" -t 'string' -s "/usr/share/weebpapers/(Moe) Moebuntu Default.jpg"
+        elif [[ "$item" == "/backdrop/screen"*"/last-image" ]]; then
+            xfconf-query -c xfce4-desktop -np "$item" -t 'string' -s "/usr/share/weebpapers/(Moe) Moebuntu Default.jpg"
+        elif [[ "$item" == "/backdrop/screen"*"/image-show" ]]; then
+            xfconf-query -c xfce4-desktop -np "$item" -t 'bool' -s 'true'
+        elif [[ "$item" == "/backdrop/screen"*"/image-style" ]]; then
+            xfconf-query -c xfce4-desktop -np "$item" -t 'int' -s '5'
+        fi
+    done
+fi
+
+if [ -f /usr/bin/gsettings ]; then
+    #Cinnamon
+    gsettings set org.cinnamon.theme name "Moe-Pink15S"
+    gsettings set org.cinnamon.desktop.interface gtk-theme "Moe-Pink15S"
+    gsettings set org.cinnamon.desktop.interface icon-theme "MoePinkIcons"
+    gsettings set org.cinnamon.desktop.wm.preferences theme "Moe-Pink15S"
+    gsettings set org.cinnamon.desktop.background picture-uri "file:///usr/share/weebpapers/(Moe) Moebuntu Default.jpg"
+    gsettings set org.cinnamon.desktop.background picture-options "zoom"
+    
+    #Metacity
+    gsettings set org.gnome.metacity.theme name "Moe-Pink15S"
+    
+    #MATE
+    gsettings set org.mate.interface gtk-theme "Moe-Pink15S"
+    gsettings set org.mate.interface icon-theme "MoePinkIcons"
+    gsettings set org.mate.Marco.general theme "Moe-Pink15S"
+    gsettings set org.mate.background picture-filename "/usr/share/weebpapers/(Moe) Moebuntu Default.jpg"
+    gsettings set org.mate.background picture-options "zoom"
+    gsettings set org.mate.background draw-background "true"
+    gsettings set org.mate.background picture-opacity "100"
+    
+    #GNOME (and Budgie and Pantheon)
+    gsettings set org.gnome.desktop.wm.preferences theme "Moe-Pink15S"
+    gsettings set org.gnome.desktop.interface gtk-theme "Moe-Pink15S"
+    gsettings set org.gnome.desktop.interface icon-theme "MoePinkIcons"
+    gsettings set org.gnome.desktop.background picture-uri "file:///usr/share/weebpapers/(Moe) Moebuntu Default.jpg"
+    gsettings set org.gnome.desktop.background picture-options "zoom"
+    gsettings set org.gnome.desktop.background draw-background "true"
+    gsettings set org.gnome.desktop.background picture-opacity "100"
+    
+fi
+
+rm -f ~/.config/autostart/ferenmoepostinst.desktop
