@@ -409,11 +409,14 @@ else
     echo "Linked the login screen background into wallpaper directory."
 fi
 
-if [ -f "/etc/lightdm/slick-greeter.conf" ]; then
+if [ -f "/usr/sbin/slick-greeter" ]; then
 echo "
 Configuring login screen (Slick Greeter)...
 "
 
+if ! grep -q '[Greeter]' /etc/lightdm/slick-greeter.conf; then
+    echo '[Greeter]' > /etc/lightdm/slick-greeter.conf
+fi
 if ! grep -q 'theme-name=' /etc/lightdm/slick-greeter.conf; then
     echo 'theme-name=Moe-Pink15S' >> /etc/lightdm/slick-greeter.conf
 else
@@ -430,6 +433,78 @@ else
     sed -i 's%background=.*%background=/usr/share/weebpapers/(Moe) Login Screen.png%g' /etc/lightdm/slick-greeter.conf > /dev/null 2>&1
 fi
 echo "Configured login screen (Slick Greeter)."
+
+fi
+if [ -f "/usr/sbin/lightdm-gtk-greeter" ]; then
+echo "
+Configuring login screen (GTK Greeter)...
+"
+
+if ! grep -q '[greeter]' /etc/lightdm/lightdm-gtk-greeter.conf; then
+    echo '[greeter]' > /etc/lightdm/lightdm-gtk-greeter.conf
+fi
+if ! grep -q 'theme-name =' /etc/lightdm/lightdm-gtk-greeter.conf; then
+    echo 'theme-name = Moe-Pink15S' >> /etc/lightdm/lightdm-gtk-greeter.conf
+else
+    sed -i 's/theme-name = .*/theme-name = Moe-Pink15S/g' /etc/lightdm/lightdm-gtk-greeter.conf > /dev/null 2>&1
+    sed -i 's/theme-name=.*/theme-name = Moe-Pink15S/g' /etc/lightdm/lightdm-gtk-greeter.conf > /dev/null 2>&1
+fi
+if ! grep -q 'icon-theme-name =' /etc/lightdm/lightdm-gtk-greeter.conf; then
+    echo 'icon-theme-name = MoePinkIcons' >> /etc/lightdm/lightdm-gtk-greeter.conf
+else
+    sed -i 's/icon-theme-name = .*/icon-theme-name = MoePinkIcons/g' /etc/lightdm/lightdm-gtk-greeter.conf > /dev/null 2>&1
+    sed -i 's/icon-theme-name=.*/icon-theme-name = MoePinkIcons/g' /etc/lightdm/lightdm-gtk-greeter.conf > /dev/null 2>&1
+fi
+if ! grep -q 'background = ' /etc/lightdm/lightdm-gtk-greeter.conf; then
+    echo 'background = /usr/share/weebpapers/(Moe) Login Screen.png' >> /etc/lightdm/lightdm-gtk-greeter.conf
+else
+    sed -i 's%background = .*%background = /usr/share/weebpapers/(Moe) Login Screen.png%g' /etc/lightdm/lightdm-gtk-greeter.conf > /dev/null 2>&1
+    sed -i 's%background=.*%background = /usr/share/weebpapers/(Moe) Login Screen.png%g' /etc/lightdm/lightdm-gtk-greeter.conf > /dev/null 2>&1
+fi
+echo "Configured login screen (GTK Greeter)."
+
+fi
+if [ -f "/usr/sbin/unity-greeter" ]; then
+echo "
+Configuring login screen (Unity Greeter)...
+"
+
+xhost +SI:localuser:lightdm
+sudo -H -u lightdm gsettings set com.canonical.unity-greeter background "/usr/share/weebpapers/(Moe) Login Screen.png"
+sudo -H -u lightdm gsettings set com.canonical.unity-greeter theme-name "Moe-Pink15S"
+sudo -H -u lightdm gsettings set com.canonical.unity-greeter icon-theme-name "MoePinkIcons"
+
+echo "Configured login screen (Unity Greeter)."
+
+fi
+if [ -f "/usr/sbin/ukui-greeter" ]; then
+echo "
+Configuring login screen (UKUI Greeter)...
+"
+
+if ! grep -q '[Greeter]' /etc/lightdm/ukui-greeter.conf; then
+    echo '[Greeter]' > /etc/lightdm/ukui-greeter.conf
+fi
+if ! grep -q 'background=' /etc/lightdm/ukui-greeter.conf; then
+    echo 'background=/usr/share/weebpapers/(Moe) Login Screen.png' >> /etc/lightdm/ukui-greeter.conf
+else
+    sed -i 's%background=.*%background=/usr/share/weebpapers/(Moe) Login Screen.png%g' /etc/lightdm/ukui-greeter.conf > /dev/null 2>&1
+fi
+echo "Configured login screen (UKUI Greeter)."
+
+fi
+if [ -f "/usr/bin/sddm" ]; then
+echo "
+Configuring login screen (SDDM)...
+"
+
+for theme in /usr/share/sddm/themes/*; do
+    cp -f "/usr/share/weebpapers/(Moe) Login Screen.png" "$theme/moeloginbg.png"
+    kwriteconfig5 --file "$theme/theme.conf.user" --group General --key background "moeloginbg.png"
+    kwriteconfig5 --file "$theme/theme.conf.user" --group General --key type "image"
+    chmod 755 "$theme/moeloginbg.png" "$theme/theme.conf.user"
+done
+echo "Configured login screen (SDDM)."
 
 fi
 

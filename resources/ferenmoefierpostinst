@@ -69,6 +69,19 @@ if [ -f /usr/bin/gsettings ]; then
     gsettings set org.gnome.desktop.background draw-background "true"
     gsettings set org.gnome.desktop.background picture-opacity "100"
     
+    #UKUI
+    gsettings set org.ukui.style icon-theme-name "MoePinkIcons"
+    gsettings set org.ukui.style style-name "ukui-white"
+    
+    #Deepin
+    gsettings set com.deepin.wrap.gnome.desktop.interface gtk-theme "Moe-Pink15S"
+    gsettings set com.deepin.wrap.gnome.desktop.interface icon-theme "MoePinkIcons"
+    gsettings set com.deepin.xsettings gtk-theme-name "Moe-Pink15S"
+    gsettings set com.deepin.xsettings theme-name "Moe-Pink15S"
+    gsettings set com.deepin.xsettings icon-theme-name "MoePinkIcons"
+    gsettings set com.deepin.dde.appearance gtk-theme "Moe-Pink15S"
+    gsettings set com.deepin.dde.appearance icon-theme "MoePinkIcons"
+    
 fi
 
 rm -f ~/.config/autostart/ferenmoepostinst.desktop
