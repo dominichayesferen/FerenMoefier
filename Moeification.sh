@@ -506,6 +506,19 @@ sudo -H -u lightdm gsettings set com.canonical.unity-greeter icon-theme-name "Mo
 echo "Configured login screen (Unity Greeter)."
 
 fi
+if [ -f "/usr/sbin/arctica-greeter" ]; then
+echo "
+Configuring login screen (Arctica Greeter)...
+"
+
+xhost +SI:localuser:lightdm
+sudo -H -u lightdm gsettings set org.ArcticaProject.arctica-greeter background "/usr/share/weebpapers/(Moe) Login Screen.png"
+sudo -H -u lightdm gsettings set org.ArcticaProject.arctica-greeter theme-name "Moe-Pink15S"
+sudo -H -u lightdm gsettings set org.ArcticaProject.arctica-greeter icon-theme-name "MoePinkIcons"
+
+echo "Configured login screen (Arctica Greeter)."
+
+fi
 if [ -f "/usr/sbin/ukui-greeter" ]; then
 echo "
 Configuring login screen (UKUI Greeter)...
