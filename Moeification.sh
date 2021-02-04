@@ -261,6 +261,30 @@ Downloading logo...
     echo "Downloaded logo."
 fi
 
+if [ -f /usr/bin/gimp ] && [ -f /usr/share/gimp/2.0/images/gimp-splash.png ]; then
+    echo "
+Downloading and installing GIMP-tan Splash Screen...
+"
+    if [[ "$(gimp --version)" == *"2.10"* ]]; then
+        wget http://moebuntu.web.fc2.com/img/special/gimp-tan210.png -O /tmp/moecontents/gimp-tan.png > /dev/null 2>&1
+        cp -f /tmp/moecontents/gimp-tan.png /usr/share/gimp/2.0/images/gimp-splash.png > /dev/null 2>&1
+    elif [[ "$(gimp --version)" == *"2.8"* ]]; then
+        wget http://moebuntu.web.fc2.com/img/special/gimp-tan28.png -O /tmp/moecontents/gimp-tan.png > /dev/null 2>&1
+        cp -f /tmp/moecontents/gimp-tan.png /usr/share/gimp/2.0/images/gimp-splash.png > /dev/null 2>&1
+    elif [[ "$(gimp --version)" == *"2.6"* ]]; then
+        wget http://moebuntu.web.fc2.com/img/special/gimp-tan26.png -O /tmp/moecontents/gimp-tan.png > /dev/null 2>&1
+        cp -f /tmp/moecontents/gimp-tan.png /usr/share/gimp/2.0/images/gimp-splash.png > /dev/null 2>&1
+    elif [[ "$(gimp --version)" == *"2.4"* ]]; then
+        wget http://moebuntu.web.fc2.com/img/special/gimp-tan24.png -O /tmp/moecontents/gimp-tan.png > /dev/null 2>&1
+        cp -f /tmp/moecontents/gimp-tan.png /usr/share/gimp/2.0/images/gimp-splash.png > /dev/null 2>&1
+    fi
+    
+    if [ ! $? -eq 0 ]; then
+        echo "Oops, an error occured downloading and installing the GIMP-tan splash. Aborting now."
+        exit 1
+    fi
+fi
+
 
 echo "
 Downloading themes...
@@ -664,7 +688,7 @@ cd /tmp/moecontents
 echo "
 Updating Initramfs, and rebooting...
 "
-update-initramfs -u -k all > /dev/null 2>&1
+update-initramfs -u -k all > /dev/null 2>&1 || dracut -f > /dev/null 2>&1
 
 echo "Enjoy."
 
