@@ -252,7 +252,7 @@ Downloading logo...
     if grep -q 'ubuntu.com' /etc/apt/sources.list > /dev/null 2>&1; then
         LOGOTYPE="ubuntu"
     #TODO: Add Fedora-specific check
-    elif true; then
+    elif grep -q 'NAME=Fedora' /etc/os-release > /dev/null 2>&1; then
         LOGOTYPE="fedora"
         wget http://moebuntu.web.fc2.com/img/special/moedora_logos.png -O /tmp/moecontents/moedora-logo.png > /dev/null 2>&1
         if [ ! $? -eq 0 ]; then
