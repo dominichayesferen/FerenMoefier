@@ -280,11 +280,15 @@ Downloading and installing GIMP-tan Splash Screen...
     elif [[ "$(gimp --version)" == *"2.4"* ]]; then
         wget http://moebuntu.web.fc2.com/img/special/gimp-tan24.png -O /tmp/moecontents/gimp-tan.png > /dev/null 2>&1
         cp -f /tmp/moecontents/gimp-tan.png /usr/share/gimp/2.0/images/gimp-splash.png > /dev/null 2>&1
+    else
+        true
     fi
     
     if [ ! $? -eq 0 ]; then
         echo "Oops, an error occured downloading and installing the GIMP-tan splash. Aborting now."
         exit 1
+    else
+        echo "Downloaded and installed the GIMP-tan splash screen."
     fi
 fi
 
