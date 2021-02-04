@@ -241,6 +241,26 @@ fi
 
 fi
 
+LOGOTYPE="none"
+if [ -f /usr/share/plymouth/themes/spinner/watermark.png ]; then
+    echo "
+Downloading logo...
+"
+    if grep -q 'ubuntu.com' /etc/apt/sources.list > /dev/null 2>&1; then
+        LOGOTYPE="ubuntu"
+    #TODO: Add Fedora-specific check
+    elif true; then
+        LOGOTYPE="fedora"
+        wget http://moebuntu.web.fc2.com/img/special/moedora_logos.png -O /tmp/moecontents/moedora-logo.png > /dev/null 2>&1
+        if [ ! $? -eq 0 ]; then
+            echo "Oops, an error occured downloading the Moedora logo. Aborting now."
+            exit 1
+        fi
+    fi
+    
+    echo "Downloaded logo."
+fi
+
 
 echo "
 Downloading themes...
@@ -406,9 +426,13 @@ else
 fi
 fi
 
-if [ -f /usr/share/plymouth/themes/spinner/watermark.png ]; then
+if [ -f /usr/share/plymouth/themes/spinner/watermark.png ] && [ "$LOGOTYPE" != "none" ]; then
 echo "Patching Plymouth's OS logo..."
-cp -f /usr/share/themes/MoePinkShell3/ubuntu-logo.png /usr/share/plymouth/themes/spinner/watermark.png > /dev/null 2>&1
+if [ "$LOGOTYPE" = "ubuntu" ]; then
+    cp -f /usr/share/themes/MoePinkShell3/ubuntu-logo.png /usr/share/plymouth/themes/spinner/watermark.png > /dev/null 2>&1
+elif [ "$LOGOTYPE" = "fedora" ]; then
+    cp -f /tmp/moecontents/moedora-logo.png /usr/share/plymouth/themes/spinner/watermark.png > /dev/null 2>&1
+fi
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured patching Plymouth's OS logo. Aborting now."
     exit 1
