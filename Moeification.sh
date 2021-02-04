@@ -9,22 +9,28 @@ RED=`tput setaf 1`
 NC=`tput sgr0`
 FULLPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
-echo "Welcome to the Feren Moefier. Before we begin, let's get some disclaimers out of the way:
+if [[ "$@" != *"--auto"* ]]; then
+    echo "Welcome to the Feren Moefier. Before we begin, let's get some disclaimers out of the way:
 
 1. THIS IS A ${RED}PERMANENT${NC} CHANGE - any patches this does to the system will be permanent until either you reinstall or updates override the files
 2. Credits to the people who made the wallpapers provided, and credits to the maker of Moebuntu for the theme and icon set.
 3. Once done, the system will immediately reboot.
 
 "
-read -p "Knowing this, are you SURE you want to continue? [y/N] " yn
+    read -p "Knowing this, are you SURE you want to continue? [y/N] " yn
 
-case $yn in
-    [Yy]* ) clear; echo "Then let us begin.";;
-    * ) exit 1;;
-esac
+    case $yn in
+        [Yy]* ) clear; echo "Then let us begin.";;
+        * ) exit 1;;
+    esac
+else
+    echo "Automatic Mode is enabled. Let's get this started."
+fi
     
 set +m
 stty intr ''
+
+if [[ "$@" != *"--spoilers"* ]] && [[ "$@" != *"--no-spoilers"* ]]; then
 
 read -p "
 Would you like to enable additional spoiler wallpapers? ${RED}These wallpapers spoil major events in the following animes:${NC}
@@ -53,6 +59,17 @@ Enable spoiler wallpapers? [y/N] " yn2
         [Yy]* ) MAJORSPOILERS=1;;
         * ) MAJORSPOILERS=0;;
     esac
+fi
+elif [[ "$@" == *"--spoilers"* ]]; then
+    echo "
+${RED}Enabling Spoiler Wallpapers due to supplied argument.${NC}
+"
+    MAJORSPOILERS=1
+elif [[ "$@" == *"--no-spoilers"* ]]; then
+    echo "
+Spoiler Wallpapers disabled due to supplied argument.
+"
+    MAJORSPOILERS=0
 fi
 
 echo "Downloading wallpapers...
