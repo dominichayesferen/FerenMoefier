@@ -241,6 +241,9 @@ fi
 
 fi
 
+rm -rf /tmp/moecontents > /dev/null 2>&1
+mkdir /tmp/moecontents > /dev/null 2>&1
+
 LOGOTYPE="none"
 if [ -f /usr/share/plymouth/themes/spinner/watermark.png ]; then
     echo "
@@ -289,9 +292,6 @@ fi
 echo "
 Downloading themes...
 "
-    
-rm -rf /tmp/moecontents > /dev/null 2>&1
-mkdir /tmp/moecontents > /dev/null 2>&1
     
 echo "Downloading the Moebuntu theme..."
 wget "https://drive.google.com/u/0/uc?id=197CsLK0ZyAK-nuQAUyb71XcKkGeQyRAD&export=download" -O /tmp/moecontents/theme.tar.xz > /dev/null 2>&1
