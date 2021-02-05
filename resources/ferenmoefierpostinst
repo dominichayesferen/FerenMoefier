@@ -71,7 +71,7 @@ if [ -f /usr/bin/gsettings ]; then
     
     #UKUI
     gsettings set org.ukui.style icon-theme-name "MoePinkIcons"
-    gsettings set org.ukui.style style-name "ukui-white"
+    gsettings set org.ukui.style style-name "ukui-light"
     
     #Deepin
     gsettings set com.deepin.wrap.gnome.desktop.interface gtk-theme "Moe-Pink15S"
