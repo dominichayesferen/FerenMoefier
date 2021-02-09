@@ -1,5 +1,47 @@
 #!/bin/bash
 
+if [[ "$@" == *"--credits"* ]]; then
+    echo "Thanks to these people for making the following resources that made Feren Moefier possible:
+
+- Wallpaper: Moebuntu Default by ?
+- Wallpaper: Mari by ?
+- Wallpaper: Rikka Windows by ?
+- Wallpaper: Rikka and Yuuta Fantasy by ?
+- Wallpaper: Rikka Train Station by Kyoto Animation (Love, Chunibyo and Other Delusions! Take On Me)
+- Wallpaper: CLANNAD by ?
+- Wallpaper: Madoka Magica MCs by ?
+- Wallpaper: Best Girl from Meduka by ?
+- Wallpaper: anohana by ?
+- Wallpaper: Windows 7 Waifu by ? (character definitely by Microsoft Japan)
+- Wallpaper: Windows 10 Waifu by ? (character definitely by Microsoft Japan)
+- Wallpaper: Yuuta by https://greenmapple17.deviantart.com/art/Yuuta-Togashi-Chuunibyo-Minimalist-Wallpaper-524763142
+- Wallpaper: More Chuuni by ?
+- Wallpaper: Dango dango dango dango by ?
+- Wallpaper: No Escape From Snow Halation by Bandai Visual, Lantis, ASCII Media Works, Bushiroad
+- Wallpaper: Minimal K-On by https://www.deviantart.com/lucifer012/art/K-ON-Minimalist-Anime-Wallpaper-664262777
+- Wallpaper: Diary of Our Days at the Breakwater by ?
+- Wallpaper: Diary of Our Days at the Breakwater 2 by ?
+- Wallpaper: (Spoiler) T** I******** B******* L**** by Kyoto Animation (Love, Chunibyo and Other Delusions! Season 1 Episode 12)
+- Wallpaper: (Spoiler) oh no by ?
+- Wallpaper: (Spoiler) CLANNAD Family by
+- Wallpaper: (Spoiler) Never Forget by ?
+- Moedora Logo by Moebuntu
+- Moebuntu Logo by Moebuntu
+- GIMP-tan Splash Screen images by Moebuntu, Shigetch (tabstop Annex B)
+- Moebuntu GTK theme by Moebuntu
+- Moebuntu icon set by Moebuntu
+- Moebuntu GNOME Shell theme by Moebuntu
+- Smol Nozomi by https://triple-q.tumblr.com/post/131855281252/very-smol-nozoomu
+- Moebuntu Login Screen Background by Moebuntu
+- Moe Plasma Colour Scheme by Dominic Hayes
+- Moe Plasma Global Theme by Dominic Hayes
+- Moe GNOME/Cinnamon Wallpaper List by Dominic Hayes
+- Moefier PostInst by Dominic Hayes"
+    exit 0
+
+fi
+
+
 if [ "$(whoami)" != "root" ]; then
     echo "You need to run this as root: sudo !!"
     exit 1
@@ -15,6 +57,8 @@ if [[ "$@" != *"--auto"* ]]; then
 1. THIS IS A ${RED}PERMANENT${NC} CHANGE - any patches this does to the system will be permanent until either you reinstall or updates override the files
 2. Credits to the people who made the wallpapers provided, and credits to the maker of Moebuntu for the theme and icon set.
 3. Once done, the system will immediately reboot.
+
+Run this command with the '--credits' argument to get credits, or read the README.md instead for credits.
 
 "
     read -p "Knowing this, are you SURE you want to continue? [y/N] " yn
