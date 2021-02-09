@@ -1,4 +1,4 @@
-<h2>Contribution Conduct</h2>
+<h2>Contribution Guidelines</h2>
 
 These are the contribution guidelines for Feren Moefier:
 
