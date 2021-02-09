@@ -56,6 +56,7 @@ Check over in Releases: https://github.com/dominichayesferen/FerenMoefier/releas
 <h2>Wishlist</h2>
 
 - Find and credit all the authors of all the resources used
+- Japanese translations for script
 
 
 <h2>Credits</h2>
