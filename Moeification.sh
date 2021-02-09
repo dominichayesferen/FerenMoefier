@@ -1,6 +1,7 @@
 #!/bin/bash
 
 if [[ "$@" == *"--credits"* ]]; then
+
     echo "Thanks to these people for making the following resources that made Feren Moefier possible:
 
 - Wallpaper: Moebuntu Default by ?
