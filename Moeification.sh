@@ -8,7 +8,7 @@ if [[ "$@" == *"--credits"* ]]; then
 - Wallpaper: Rikka Windows by ?
 - Wallpaper: Rikka and Yuuta Fantasy by ?
 - Wallpaper: Rikka Train Station by Kyoto Animation (Love, Chunibyo and Other Delusions! Take On Me)
-- Wallpaper: CLANNAD by ?
+- Wallpaper: CLANNAD by https://www.deviantart.com/mr123spiky/art/Clannad-Wallpaper-At-The-Foot-Of-The-Hill-518189657
 - Wallpaper: Madoka Magica MCs by ?
 - Wallpaper: Best Girl from Meduka by ?
 - Wallpaper: anohana by ?

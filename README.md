@@ -1,5 +1,5 @@
 # Feren Moefier
-Transform your Linux-based Operating System into a Moefied beauty with the help of a script and a bunch of Moebuntu resources.
+Transform your Linux-based Operating System into a Moefied beauty with the help of a script, a bunch of Moebuntu resources and some extras.
 
 Feren Moefier is a tool by The Feren OS Developer that does what it says on the tin - Moefies the Operating System you run it on. It supports Budgie, Cinnamon, GNOME, KDE Plasma, Pantheon, UKUI, Unity, XFCE and potentially even more Desktop Environments! It's essentially a Moebuntu script but with some extras.
 
@@ -35,6 +35,7 @@ Run Moeification.sh in the downloaded folder.
 
 
 <h2>Arguments</h2>
+
 `--auto`: Skips the first confirmation
 
 `--no-spoilers`: Automatically disables Spoiler Wallpapers
@@ -66,7 +67,7 @@ Check over in Releases: https://github.com/dominichayesferen/FerenMoefier/releas
 | Wallpaper: Rikka Windows  | ?  |
 | Wallpaper: Rikka and Yuuta Fantasy  | ?  |
 | Wallpaper: Rikka Train Station  | Love, Chunibyo and Other Delusions! Take On Me (Kyoto Animation)  |
-| Wallpaper: CLANNAD  | ?  |
+| Wallpaper: CLANNAD  | https://www.deviantart.com/mr123spiky/art/Clannad-Wallpaper-At-The-Foot-Of-The-Hill-518189657  |
 | Wallpaper: Madoka Magica MCs  | ?  |
 | Wallpaper: Best Girl from Meduka  | ?  |
 | Wallpaper: anohana  | ?  |
