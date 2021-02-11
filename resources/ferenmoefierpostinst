@@ -84,4 +84,15 @@ if [ -f /usr/bin/gsettings ]; then
     
 fi
 
+#Plasma - make sure the GTK theme is applied automatically and properly
+if [ -f ~/.config/gtk-3.0/settings.ini ]; then
+    sed -i 's%gtk-theme-name=.*%gtk-theme-name=Moe-Pink15S%g' ~/.config/gtk-3.0/settings.ini
+fi
+if [ -f ~/.config/gtk-3.0/gtk.css ]; then
+    sed -i "s%@import 'window_decorations.css';%%g" ~/.config/gtk-3.0/gtk.css
+fi
+if [ -f ~/.config/xsettingsd/xsettingsd.conf ]; then
+    sed -i 's%Net/ThemeName .*%Net/ThemeName "Moe-Pink15S"%g' ~/.config/xsettingsd/xsettingsd.conf
+fi
+
 rm -f ~/.config/autostart/ferenmoepostinst.desktop
