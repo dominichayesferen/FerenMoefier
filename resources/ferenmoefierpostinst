@@ -93,6 +93,9 @@ if [ -f ~/.config/gtk-3.0/gtk.css ]; then
 fi
 if [ -f ~/.config/xsettingsd/xsettingsd.conf ]; then
     sed -i 's%Net/ThemeName .*%Net/ThemeName "Moe-Pink15S"%g' ~/.config/xsettingsd/xsettingsd.conf
+    if [ -f /usr/bin/xsettingsd ]; then
+        /usr/bin/xsettingsd &
+    fi
 fi
 
 rm -f ~/.config/autostart/ferenmoepostinst.desktop
