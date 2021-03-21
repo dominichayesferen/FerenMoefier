@@ -252,14 +252,14 @@ if [ ! $? -eq 0 ]; then
 else
     echo "Downloaded another Diary of Our Days at the Breakwater wallpaper."
 fi
-wget https://images7.alphacoders.com/737/737487.png -O "/usr/share/weebpapers/(moe) Your Name Mitsuha.png" >  /dev/null 2>&1
+wget https://images7.alphacoders.com/737/737487.png -O "/usr/share/weebpapers/(moe) Your Name Mitsuha.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Your Name Mitsuha wallpaper! Something must have happened..."
     exit 1
 else
     echo "Downloaded the Your Name Mitsuha wallpaper."
 fi
-wget http://www.kiminona.com/images/top/main_vsl02.jpg -O "/usr/share/weebpapers/(moe) Your Name 2.png" >  /dev/null 2>&1
+wget http://www.kiminona.com/images/top/main_vsl02.jpg -O "/usr/share/weebpapers/(moe) Your Name 2.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "Oops, an error occured downloading the Your Name 2 wallpaper! Swapping bodies in 3, 2, 1..."
     exit 1
