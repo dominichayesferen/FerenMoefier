@@ -81,8 +81,8 @@ Check over in Releases: https://github.com/dominichayesferen/FerenMoefier/releas
 | Wallpaper: Minimal K-On  | https://www.deviantart.com/lucifer012/art/K-ON-Minimalist-Anime-Wallpaper-664262777  |
 | Wallpaper: Diary of Our Days at the Breakwater  | ?  |
 | Wallpaper: Diary of Our Days at the Breakwater 2  | ?  |
-| Wallpaper: Your Name Mitsuha | https://www.deviantart.com/ryuzuy/art/Your-Name-867355784  |
-| Wallpaper: Your Name 2 | Shinkai Makoto, CoMix Wave Films  |
+| Wallpaper: Your Name Mitsuha  | https://www.deviantart.com/ryuzuy/art/Your-Name-867355784  |
+| Wallpaper: Your Name 2  | Shinkai Makoto, CoMix Wave Films  |
 | Wallpaper: (Spoiler) T** I******** B******* L****  | Love, Chunibyo and Other Delusions! Season 1 Episode 12 (Kyoto Animation)  |
 | Wallpaper: (Spoiler) oh no  | ?  |
 | Wallpaper: (Spoiler) CLANNAD Family  | ?  |
