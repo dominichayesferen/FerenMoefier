@@ -99,3 +99,7 @@ Check over in Releases: https://github.com/dominichayesferen/FerenMoefier/releas
 | Moe Plasma Global Theme  | Dominic Hayes  |
 | Moe GNOME/Cinnamon Wallpaper List  | Dominic Hayes  |
 | Moefier PostInst  | Dominic Hayes  |
+
+
+<h2>Translating Feren Moefier</h2>
+Translating Feren Moefier is now possible. Just open the supplied .pot file in a program like Poedit and translate to your heart's content. All I ask is that you save the .po and .mo that get generated to translations/THE LOCALE/LC_MESSAGES/ when Pull Requesting the translations, and to keep the translations faithful to the original messages. They're written in English (UK), just for the record.
