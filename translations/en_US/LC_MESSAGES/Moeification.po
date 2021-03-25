@@ -1,0 +1,1011 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-25 17:11+0000\n"
+"PO-Revision-Date: 2021-03-25 17:58+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: Moeification.sh:10
+#, sh-format
+msgid ""
+"Thanks to these people for making the following resources that made Feren "
+"Moefier possible:"
+msgstr ""
+
+#: Moeification.sh:12 Moeification.sh:13 Moeification.sh:14 Moeification.sh:15
+#: Moeification.sh:16 Moeification.sh:17 Moeification.sh:18 Moeification.sh:19
+#: Moeification.sh:20 Moeification.sh:21 Moeification.sh:22 Moeification.sh:23
+#: Moeification.sh:24 Moeification.sh:25 Moeification.sh:26 Moeification.sh:27
+#: Moeification.sh:28 Moeification.sh:29 Moeification.sh:30 Moeification.sh:31
+#: Moeification.sh:32 Moeification.sh:33 Moeification.sh:34 Moeification.sh:35
+#, sh-format
+msgid "Wallpaper"
+msgstr ""
+
+#: Moeification.sh:12
+#, sh-format
+msgid "Moebuntu Default by"
+msgstr ""
+
+#: Moeification.sh:13
+#, sh-format
+msgid "Mari by"
+msgstr ""
+
+#: Moeification.sh:14
+#, sh-format
+msgid "Rikka Windows by"
+msgstr ""
+
+#: Moeification.sh:15
+#, sh-format
+msgid "Rikka and Yuuta Fantasy by"
+msgstr ""
+
+#: Moeification.sh:16
+#, sh-format
+msgid ""
+"Rikka Train Station by Kyoto Animation (Love, Chunibyo and Other Delusions! "
+"Take On Me)"
+msgstr ""
+
+#: Moeification.sh:17
+#, sh-format
+msgid "CLANNAD by"
+msgstr ""
+
+#: Moeification.sh:18
+#, sh-format
+msgid "Madoka Magica MCs by"
+msgstr ""
+
+#: Moeification.sh:19
+#, sh-format
+msgid "Best Girl from Meduka by"
+msgstr ""
+
+#: Moeification.sh:20
+#, sh-format
+msgid "anohana by"
+msgstr ""
+
+#: Moeification.sh:21
+#, sh-format
+msgid "Windows 7 Waifu by"
+msgstr ""
+
+#: Moeification.sh:21 Moeification.sh:22
+#, sh-format
+msgid "(character definitely by Microsoft Japan)"
+msgstr ""
+
+#: Moeification.sh:22
+#, sh-format
+msgid "Windows 10 Waifu by"
+msgstr ""
+
+#: Moeification.sh:23
+#, sh-format
+msgid "Yuuta by"
+msgstr ""
+
+#: Moeification.sh:24
+#, sh-format
+msgid "More Chuuni by"
+msgstr ""
+
+#: Moeification.sh:25
+#, sh-format
+msgid "Dango dango dango dango by"
+msgstr ""
+
+#: Moeification.sh:26
+#, sh-format
+msgid ""
+"No Escape From Snow Halation by Bandai Visual, Lantis, ASCII Media Works, "
+"Bushiroad"
+msgstr ""
+
+#: Moeification.sh:27
+#, sh-format
+msgid "Minimal K-On by"
+msgstr ""
+
+#: Moeification.sh:28
+#, sh-format
+msgid "Diary of Our Days at the Breakwater by"
+msgstr ""
+
+#: Moeification.sh:29
+#, sh-format
+msgid "Diary of Our Days at the Breakwater 2 by"
+msgstr ""
+
+#: Moeification.sh:30
+#, sh-format
+msgid "Your Name Mitsuha by"
+msgstr ""
+
+#: Moeification.sh:31
+#, sh-format
+msgid "Your Name 2 by Shinkai Makoto, CoMix Wave Films"
+msgstr ""
+
+#: Moeification.sh:32 Moeification.sh:33 Moeification.sh:34 Moeification.sh:35
+#, sh-format
+msgid "Spoiler"
+msgstr ""
+
+#: Moeification.sh:32
+#, sh-format
+msgid ""
+"T** I******** B******* L**** by Kyoto Animation (Love, Chunibyo and Other "
+"Delusions! Season 1 Episode 12)"
+msgstr ""
+
+#: Moeification.sh:33
+#, sh-format
+msgid "oh no by"
+msgstr ""
+
+#: Moeification.sh:34
+#, sh-format
+msgid "CLANNAD Family by"
+msgstr ""
+
+#: Moeification.sh:35
+#, sh-format
+msgid "Never Forget by"
+msgstr ""
+
+#: Moeification.sh:36
+#, sh-format
+msgid "Moedora Logo by Moebuntu"
+msgstr ""
+
+#: Moeification.sh:37
+#, sh-format
+msgid "Moebuntu Logo by Moebuntu"
+msgstr ""
+
+#: Moeification.sh:38
+#, sh-format
+msgid "GIMP-tan Splash Screen images by Moebuntu, Shigetch (tabstop Annex B)"
+msgstr ""
+
+#: Moeification.sh:39
+#, sh-format
+msgid "Moebuntu GTK theme by Moebuntu"
+msgstr ""
+
+#: Moeification.sh:40
+#, sh-format
+msgid "Moebuntu icon set by Moebuntu"
+msgstr ""
+
+#: Moeification.sh:41
+#, sh-format
+msgid "Moebuntu GNOME Shell theme by Moebuntu"
+msgstr ""
+
+#: Moeification.sh:42
+#, sh-format
+msgid "Smol Nozomi by"
+msgstr ""
+
+#: Moeification.sh:43
+#, sh-format
+msgid "Moebuntu Login Screen Background by Moebuntu"
+msgstr ""
+
+#: Moeification.sh:44
+#, sh-format
+msgid "Moe Plasma Colour Scheme by Dominic Hayes"
+msgstr "Moe Plasma Color Scheme by Dominic Hayes"
+
+#: Moeification.sh:45
+#, sh-format
+msgid "Moe Plasma Global Theme by Dominic Hayes"
+msgstr ""
+
+#: Moeification.sh:46
+#, sh-format
+msgid "Moe GNOME/Cinnamon Wallpaper List by Dominic Hayes"
+msgstr ""
+
+#: Moeification.sh:47
+#, sh-format
+msgid "Moefier PostInst by Dominic Hayes"
+msgstr ""
+
+#: Moeification.sh:54
+#, sh-format
+msgid "You need to run this as root:"
+msgstr ""
+
+#: Moeification.sh:63
+#, sh-format
+msgid ""
+"Welcome to the Feren Moefier. Before we begin, let's get some disclaimers "
+"out of the way:"
+msgstr ""
+
+#: Moeification.sh:65
+#, sh-format
+msgid "1. THIS IS A PERMANENT CHANGE"
+msgstr ""
+
+#: Moeification.sh:65
+#, sh-format
+msgid ""
+" - any patches this does to the system will be permanent until either you "
+"reinstall or updates override the files"
+msgstr ""
+
+#: Moeification.sh:66
+#, sh-format
+msgid ""
+"2. Credits to the people who made the wallpapers provided, and credits to "
+"the maker of Moebuntu for the theme and icon set."
+msgstr ""
+
+#: Moeification.sh:67
+#, sh-format
+msgid "3. Once done, the system will immediately reboot."
+msgstr ""
+
+#: Moeification.sh:69
+#, sh-format
+msgid ""
+"Run this command with the '--credits' argument to get credits, or read the "
+"README.md instead for credits."
+msgstr ""
+
+#: Moeification.sh:72
+#, sh-format
+msgid "Knowing this, are you SURE you want to continue?"
+msgstr ""
+
+#: Moeification.sh:75
+#, sh-format
+msgid "Then let us begin."
+msgstr ""
+
+#: Moeification.sh:79
+#, sh-format
+msgid "Automatic Mode is enabled. Let's get this started."
+msgstr ""
+
+#: Moeification.sh:88
+#, sh-format
+msgid "Would you like to enable additional spoiler wallpapers?"
+msgstr ""
+
+#: Moeification.sh:88
+#, sh-format
+msgid "These wallpapers spoil major events in the following animes:"
+msgstr ""
+
+#: Moeification.sh:90
+#, sh-format
+msgid "Chuunibyo Demo Koi Ka Shitai (aka Love, Chunibyo and Other Delusions!)"
+msgstr ""
+
+#: Moeification.sh:91
+#, sh-format
+msgid "CLANNAD (After Story)"
+msgstr ""
+
+#: Moeification.sh:92
+#, sh-format
+msgid "anohana."
+msgstr ""
+
+#: Moeification.sh:95 Moeification.sh:108
+#, sh-format
+msgid "Enable spoiler wallpapers?"
+msgstr ""
+
+#: Moeification.sh:103
+#, sh-format
+msgid "ARE YOU ABSOLUTELY SURE YOU WANT TO DO THIS?"
+msgstr ""
+
+#: Moeification.sh:105
+#, sh-format
+msgid "These extra wallpapers WILL SPOIL MAJOR EVENTS IN THOSE ANIMES."
+msgstr ""
+
+#: Moeification.sh:105
+#, sh-format
+msgid ""
+"Please, if you haven't watched one of these animes, TURN BACK by answering "
+"'N' to this prompt and watch those animes."
+msgstr ""
+
+#: Moeification.sh:105
+#, sh-format
+msgid "You'll regret spoiling yourself."
+msgstr ""
+
+#: Moeification.sh:117
+#, sh-format
+msgid "Enabling Spoiler Wallpapers due to supplied argument."
+msgstr ""
+
+#: Moeification.sh:122
+#, sh-format
+msgid "Spoiler Wallpapers disabled due to supplied argument."
+msgstr ""
+
+#: Moeification.sh:127
+#, sh-format
+msgid "Downloading wallpapers..."
+msgstr ""
+
+#: Moeification.sh:136
+#, sh-format
+msgid "Oops, an error occured downloading the Moebuntu Default wallpaper!"
+msgstr ""
+
+#: Moeification.sh:136 Moeification.sh:143 Moeification.sh:150
+#: Moeification.sh:157 Moeification.sh:164 Moeification.sh:171
+#: Moeification.sh:178 Moeification.sh:185 Moeification.sh:192
+#: Moeification.sh:199 Moeification.sh:206 Moeification.sh:213
+#: Moeification.sh:220 Moeification.sh:227 Moeification.sh:234
+#: Moeification.sh:241 Moeification.sh:248 Moeification.sh:255
+#: Moeification.sh:262 Moeification.sh:269 Moeification.sh:281
+#: Moeification.sh:288 Moeification.sh:295 Moeification.sh:302
+#: Moeification.sh:325 Moeification.sh:354 Moeification.sh:369
+#: Moeification.sh:378 Moeification.sh:387 Moeification.sh:396
+#: Moeification.sh:412 Moeification.sh:421 Moeification.sh:430
+#: Moeification.sh:440 Moeification.sh:450 Moeification.sh:460
+#: Moeification.sh:470 Moeification.sh:516 Moeification.sh:533
+#: Moeification.sh:543
+#, sh-format
+msgid "Aborting now."
+msgstr ""
+
+#: Moeification.sh:139
+#, sh-format
+msgid "Downloaded the Moebuntu 'Default' wallpaper."
+msgstr ""
+
+#: Moeification.sh:143
+#, sh-format
+msgid "Oops, an error occured downloading the Mari wallpaper! It's Not Joke."
+msgstr ""
+
+#: Moeification.sh:146
+#, sh-format
+msgid "Downloaded the Mari wallpaper."
+msgstr ""
+
+#: Moeification.sh:150
+#, sh-format
+msgid ""
+"Oops, an error occured downloading the Rikka uncovering Windows wallpaper!"
+msgstr ""
+
+#: Moeification.sh:153
+#, sh-format
+msgid "Downloaded the Rikka uncovering Windows wallpaper."
+msgstr ""
+
+#: Moeification.sh:157
+#, sh-format
+msgid ""
+"Oops, an error occured downloading the Rikka and Yuuta Fantasy wallpaper! "
+"Guess it was just a fantasy after all..."
+msgstr ""
+
+#: Moeification.sh:160
+#, sh-format
+msgid "Downloaded the Rikka and Yuuta Fantasy wallpaper."
+msgstr ""
+
+#: Moeification.sh:164
+#, sh-format
+msgid ""
+"Oops, an error occured downloading the Rikka at Train Station wallpaper!"
+msgstr ""
+
+#: Moeification.sh:167
+#, sh-format
+msgid "Downloaded the Rikka at Train Station wallpaper. TAKE ME ONNNNNNNNNN!"
+msgstr ""
+
+#: Moeification.sh:171
+#, sh-format
+msgid "Oops, an error occured downloading the CLANNAD wallpaper!"
+msgstr ""
+
+#: Moeification.sh:174
+#, sh-format
+msgid "Downloaded the CLANNAD wallpaper."
+msgstr ""
+
+#: Moeification.sh:178
+#, sh-format
+msgid ""
+"Oops, an error occured downloading the Madoka Magica MCs wallpaper! That "
+"darn entropy, probably."
+msgstr ""
+
+#: Moeification.sh:181
+#, sh-format
+msgid "Downloaded the Madoka Magica Main Characters wallpaper."
+msgstr ""
+
+#: Moeification.sh:185
+#, sh-format
+msgid ""
+"Oops, an error occured downloading the Best Madoka Magica Girl wallpaper! "
+"Being meguka is suffering."
+msgstr ""
+
+#: Moeification.sh:188
+#, sh-format
+msgid "Downloaded the Best Madoka Magica Girl wallpaper."
+msgstr ""
+
+#: Moeification.sh:192
+#, sh-format
+msgid ""
+"Oops, an error occured downloading the Anohana wallpaper! Respect her "
+"privacy, I guess."
+msgstr ""
+
+#: Moeification.sh:195
+#, sh-format
+msgid "Downloaded the Anohana wallpaper."
+msgstr ""
+
+#: Moeification.sh:199
+#, sh-format
+msgid ""
+"Oops, an error occured downloading the Windows 7 Waifu wallpaper! Leave her "
+"be now she graduated, SMH."
+msgstr ""
+
+#: Moeification.sh:202
+#, sh-format
+msgid "Downloaded the Windows 7 Waifu wallpaper."
+msgstr ""
+
+#: Moeification.sh:206
+#, sh-format
+msgid ""
+"Oops, an error occured downloading the Windows 10 Waifu wallpaper! Probably "
+"too bloated to carry."
+msgstr ""
+
+#: Moeification.sh:209
+#, sh-format
+msgid "Downloaded the Windows 10 Waifu wallpaper."
+msgstr ""
+
+#: Moeification.sh:213
+#, sh-format
+msgid ""
+"Oops, an error occured downloading the Yuuta wallpaper! Don't call him Dark "
+"Flame Master now, will ya?"
+msgstr ""
+
+#: Moeification.sh:216
+#, sh-format
+msgid "Downloaded the Yuuta wallpaper."
+msgstr ""
+
+#: Moeification.sh:220
+#, sh-format
+msgid ""
+"Oops, an error occured downloading another Chunibyo wallpaper! What "
+"delusional circumstances, eh."
+msgstr ""
+
+#: Moeification.sh:223
+#, sh-format
+msgid "Downloaded another Chunibyo wallpaper."
+msgstr ""
+
+#: Moeification.sh:227
+#, sh-format
+msgid ""
+"My apologies, I was crying too much to successfully download the Dango "
+"wallpaper."
+msgstr ""
+
+#: Moeification.sh:230
+#, sh-format
+msgid "Downloaded the Dango dango dango dango wallpaper."
+msgstr ""
+
+#: Moeification.sh:234
+#, sh-format
+msgid ""
+"Oops, an error occured downloading the Snow Halation wallpaper! You've "
+"escaped for now."
+msgstr ""
+
+#: Moeification.sh:237
+#, sh-format
+msgid "Downloaded the Snow Halation wallpaper."
+msgstr ""
+
+#: Moeification.sh:241
+#, sh-format
+msgid "Oops, an error occured downloading the K-On! wallpaper!"
+msgstr ""
+
+#: Moeification.sh:244
+#, sh-format
+msgid "Downloaded the K-On! wallpaper."
+msgstr ""
+
+#: Moeification.sh:248
+#, sh-format
+msgid ""
+"Oops, an error occured downloading a Diary of Our Days at the Breakwater "
+"wallpaper! I guess the installer got stuck at this part. That sucks."
+msgstr ""
+
+#: Moeification.sh:251
+#, sh-format
+msgid "Downloaded a Diary of Our Days at the Breakwater wallpaper."
+msgstr ""
+
+#: Moeification.sh:255
+#, sh-format
+msgid ""
+"Oops, an error occured downloading another Diary of Our Days at the "
+"Breakwater wallpaper!"
+msgstr ""
+
+#: Moeification.sh:258
+#, sh-format
+msgid "Downloaded another Diary of Our Days at the Breakwater wallpaper."
+msgstr ""
+
+#: Moeification.sh:262
+#, sh-format
+msgid ""
+"Oops, an error occured downloading the Your Name Mitsuha wallpaper! "
+"Something must have happened..."
+msgstr ""
+
+#: Moeification.sh:265
+#, sh-format
+msgid "Downloaded the Your Name Mitsuha wallpaper."
+msgstr ""
+
+#: Moeification.sh:269
+#, sh-format
+msgid ""
+"Oops, an error occured downloading the Your Name 2 wallpaper! Swapping "
+"bodies in 3, 2, 1..."
+msgstr ""
+
+#: Moeification.sh:272
+#, sh-format
+msgid "Downloaded the Your Name 2 wallpaper."
+msgstr ""
+
+#: Moeification.sh:276
+#, sh-format
+msgid "Downloading Major Spoiler wallpapers... The snow is falling."
+msgstr ""
+
+#: Moeification.sh:281
+#, sh-format
+msgid ""
+"Sorry, I was too busy trying not to cry that I didn't successfully download "
+"the Invisible Boundary Lines wallpaper."
+msgstr ""
+
+#: Moeification.sh:284
+#, sh-format
+msgid "Downloaded the Invisible Boundary Lines wallpaper."
+msgstr ""
+
+#: Moeification.sh:288
+#, sh-format
+msgid "Oops, an error occured downloading a CLANNAD After Story wallpaper!"
+msgstr ""
+
+#: Moeification.sh:288
+#, sh-format
+msgid "Yet, the snow falls."
+msgstr ""
+
+#: Moeification.sh:291
+#, sh-format
+msgid "Downloaded a CLANNAD After Story wallpaper."
+msgstr ""
+
+#: Moeification.sh:295
+#, sh-format
+msgid ""
+"Oops, an error occured downloading another CLANNAD After Story wallpaper!"
+msgstr ""
+
+#: Moeification.sh:295
+#, sh-format
+msgid "Something's gonna happen to that happy family, won't it?"
+msgstr ""
+
+#: Moeification.sh:298
+#, sh-format
+msgid "Downloaded another CLANNAD After Story wallpaper."
+msgstr ""
+
+#: Moeification.sh:302
+#, sh-format
+msgid "Oops, an error occured downloading another anohana wallpaper!"
+msgstr ""
+
+#: Moeification.sh:302
+#, sh-format
+msgid "Don't forget about her."
+msgstr ""
+
+#: Moeification.sh:305
+#, sh-format
+msgid "Downloaded another anohana wallpaper."
+msgstr ""
+
+#: Moeification.sh:316
+#, sh-format
+msgid "Downloading logo..."
+msgstr ""
+
+#: Moeification.sh:325
+#, sh-format
+msgid "Oops, an error occured downloading the Moedora logo."
+msgstr ""
+
+#: Moeification.sh:330
+#, sh-format
+msgid "Downloaded logo."
+msgstr ""
+
+#: Moeification.sh:335
+#, sh-format
+msgid "Downloading and installing GIMP-tan Splash Screen..."
+msgstr ""
+
+#: Moeification.sh:354
+#, sh-format
+msgid "Oops, an error occured downloading and installing the GIMP-tan splash."
+msgstr ""
+
+#: Moeification.sh:357
+#, sh-format
+msgid "Downloaded and installed the GIMP-tan splash screen."
+msgstr ""
+
+#: Moeification.sh:363
+#, sh-format
+msgid "Downloading themes..."
+msgstr ""
+
+#: Moeification.sh:366
+#, sh-format
+msgid "Downloading the Moebuntu theme..."
+msgstr ""
+
+#: Moeification.sh:369
+#, sh-format
+msgid "Oops, an error occured downloading the Moebuntu theme."
+msgstr ""
+
+#: Moeification.sh:372
+#, sh-format
+msgid "Downloaded the Moebuntu theme."
+msgstr ""
+
+#: Moeification.sh:375
+#, sh-format
+msgid "Downloading the Moebuntu icons..."
+msgstr ""
+
+#: Moeification.sh:378
+#, sh-format
+msgid "Oops, an error occured downloading the Moebuntu icons."
+msgstr ""
+
+#: Moeification.sh:381
+#, sh-format
+msgid "Downloaded the Moebuntu icons."
+msgstr ""
+
+#: Moeification.sh:384
+#, sh-format
+msgid ""
+"Downloading the Moebuntu GNOME Shell theme (for compatible GNOME versions, "
+"and also resource extraction)..."
+msgstr ""
+
+#: Moeification.sh:387
+#, sh-format
+msgid "Oops, an error occured downloading the Moebuntu GNOME Shell theme."
+msgstr ""
+
+#: Moeification.sh:390
+#, sh-format
+msgid "Downloaded the Moebuntu GNOME Shell theme."
+msgstr ""
+
+#: Moeification.sh:393
+#, sh-format
+msgid "Downloading Smol Nozomi avatar..."
+msgstr ""
+
+#: Moeification.sh:396
+#, sh-format
+msgid "Oops, an error occured downloading the Smol Nomozi avatar."
+msgstr ""
+
+#: Moeification.sh:399
+#, sh-format
+msgid "Downloaded the Smol Nozomi avatar."
+msgstr ""
+
+#: Moeification.sh:404
+#, sh-format
+msgid "Moefying the Operating System..."
+msgstr ""
+
+#: Moeification.sh:409
+#, sh-format
+msgid "Extracting the Moebuntu theme..."
+msgstr ""
+
+#: Moeification.sh:412
+#, sh-format
+msgid "Oops, an error occured extracting the Moebuntu theme."
+msgstr ""
+
+#: Moeification.sh:415
+#, sh-format
+msgid "Extracted the Moebuntu theme."
+msgstr ""
+
+#: Moeification.sh:418
+#, sh-format
+msgid "Extracting the Moebuntu icons..."
+msgstr ""
+
+#: Moeification.sh:421
+#, sh-format
+msgid "Oops, an error occured extracting the Moebuntu icons."
+msgstr ""
+
+#: Moeification.sh:424
+#, sh-format
+msgid "Extracted the Moebuntu icons."
+msgstr ""
+
+#: Moeification.sh:427
+#, sh-format
+msgid "Extracting the Moebuntu GNOME Shell theme..."
+msgstr ""
+
+#: Moeification.sh:430
+#, sh-format
+msgid "Oops, an error occured extracting the Moebuntu GNOME Shell theme."
+msgstr ""
+
+#: Moeification.sh:433
+#, sh-format
+msgid "Extracted the Moebuntu GNOME Shell theme."
+msgstr ""
+
+#: Moeification.sh:436
+#, sh-format
+msgid "Installing the Moebuntu theme..."
+msgstr ""
+
+#: Moeification.sh:440
+#, sh-format
+msgid "Oops, an error occured installing the Moebuntu theme."
+msgstr ""
+
+#: Moeification.sh:443
+#, sh-format
+msgid "Installed the Moebuntu theme."
+msgstr ""
+
+#: Moeification.sh:446
+#, sh-format
+msgid "Installing the Moebuntu icons..."
+msgstr ""
+
+#: Moeification.sh:450
+#, sh-format
+msgid "Oops, an error occured installing the Moebuntu icons."
+msgstr ""
+
+#: Moeification.sh:453
+#, sh-format
+msgid "Installed the Moebuntu icons."
+msgstr ""
+
+#: Moeification.sh:456
+#, sh-format
+msgid "Installing the Moebuntu GNOME Shell theme..."
+msgstr ""
+
+#: Moeification.sh:460
+#, sh-format
+msgid "Oops, an error occured installing the Moebuntu GNOME Shell theme."
+msgstr ""
+
+#: Moeification.sh:463
+#, sh-format
+msgid "Installed the Moebuntu GNOME Shell theme."
+msgstr ""
+
+#: Moeification.sh:467
+#, sh-format
+msgid "Patching Ubuntu GNOME Shell theme..."
+msgstr ""
+
+#: Moeification.sh:470
+#, sh-format
+msgid "Oops, an error occured patching the Ubuntu GNOME Shell theme."
+msgstr ""
+
+#: Moeification.sh:480
+#, sh-format
+msgid "Patched the Ubuntu GNOME Shell theme."
+msgstr ""
+
+#: Moeification.sh:483
+#, sh-format
+msgid "Applying Smol Nozomi avatar on all the users..."
+msgstr ""
+
+#: Moeification.sh:493
+#, sh-format
+msgid "Installing Smol Nozomi avatar..."
+msgstr ""
+
+#: Moeification.sh:513
+#, sh-format
+msgid "Patching Ubuntu's Plymouth logo..."
+msgstr ""
+
+#: Moeification.sh:516
+#, sh-format
+msgid "Oops, an error occured patching Ubuntu's Plymouth logo."
+msgstr ""
+
+#: Moeification.sh:519
+#, sh-format
+msgid "Patched Ubuntu's Plymouth logo."
+msgstr ""
+
+#: Moeification.sh:524
+#, sh-format
+msgid "Patching Plymouth's OS logo..."
+msgstr ""
+
+#: Moeification.sh:533
+#, sh-format
+msgid "Oops, an error occured patching Plymouth's OS logo."
+msgstr ""
+
+#: Moeification.sh:536
+#, sh-format
+msgid "Patched Plymouth's OS logo."
+msgstr ""
+
+#: Moeification.sh:540
+#, sh-format
+msgid ""
+"Linking login screen background from GNOME Shell theme into wallpapers "
+"directory..."
+msgstr ""
+
+#: Moeification.sh:543
+#, sh-format
+msgid ""
+"Oops, an error occured linking the login screen background into wallpaper "
+"directory."
+msgstr ""
+
+#: Moeification.sh:546
+#, sh-format
+msgid "Linked the login screen background into wallpaper directory."
+msgstr ""
+
+#: Moeification.sh:551 Moeification.sh:583 Moeification.sh:618
+#: Moeification.sh:631 Moeification.sh:644 Moeification.sh:662
+#, sh-format
+msgid "Configuring login screen"
+msgstr ""
+
+#: Moeification.sh:551 Moeification.sh:578
+#, sh-format
+msgid "Slick Greeter"
+msgstr ""
+
+#: Moeification.sh:578 Moeification.sh:613 Moeification.sh:626
+#: Moeification.sh:639 Moeification.sh:657 Moeification.sh:671
+#, sh-format
+msgid "Configured login screen"
+msgstr ""
+
+#: Moeification.sh:583 Moeification.sh:613
+#, sh-format
+msgid "GTK Greeter"
+msgstr ""
+
+#: Moeification.sh:618 Moeification.sh:626
+#, sh-format
+msgid "Unity Greeter"
+msgstr ""
+
+#: Moeification.sh:631 Moeification.sh:639
+#, sh-format
+msgid "Arctica Greeter"
+msgstr ""
+
+#: Moeification.sh:644 Moeification.sh:657
+#, sh-format
+msgid "UKUI Greeter"
+msgstr ""
+
+#: Moeification.sh:662 Moeification.sh:671
+#, sh-format
+msgid "SDDM"
+msgstr ""
+
+#: Moeification.sh:676
+#, sh-format
+msgid "Installing wallpapers..."
+msgstr ""
+
+#: Moeification.sh:700
+#, sh-format
+msgid "Installing colour scheme..."
+msgstr "Installing color scheme..."
+
+#: Moeification.sh:718
+#, sh-format
+msgid "Installing Global Theme (KDE Plasma)..."
+msgstr ""
+
+#: Moeification.sh:732
+#, sh-format
+msgid "Installing postinst..."
+msgstr ""
+
+#: Moeification.sh:737
+#, sh-format
+msgid "Running postinst next login(s)..."
+msgstr ""
+
+#: Moeification.sh:761
+#, sh-format
+msgid "Updating Initramfs, and rebooting..."
+msgstr ""
+
+#: Moeification.sh:765
+#, sh-format
+msgid "Enjoy."
+msgstr ""
