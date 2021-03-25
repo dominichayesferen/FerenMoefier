@@ -59,6 +59,22 @@
   </wallpaper>
 
   <wallpaper deleted="false">
+    <name>Your Name Mitsuha</name>
+    <filename>/usr/share/weebpapers/(Moe) Your Name Mitsuha.png</filename>
+    <options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  
+  <wallpaper deleted="false">
+    <name>Your Name 2</name>
+    <filename>/usr/share/weebpapers/(Moe) Your Name 2.png</filename>
+    <options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  
+  <wallpaper deleted="false">
     <name>Madoka Magica MCs</name>
     <filename>/usr/share/weebpapers/(Moe) Madoka Magica MCs.jpg</filename>
     <options>zoom</options>
