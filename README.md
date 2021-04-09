@@ -83,6 +83,7 @@ Check over in Releases: https://github.com/dominichayesferen/FerenMoefier/releas
 | Wallpaper: Diary of Our Days at the Breakwater 2  | ?  |
 | Wallpaper: Your Name Mitsuha  | https://www.deviantart.com/ryuzuy/art/Your-Name-867355784  |
 | Wallpaper: Your Name 2  | Shinkai Makoto, CoMix Wave Films  |
+| Wallpaper: Sora Yori Mo Tooi Basho  | https://www.reddit.com/r/Animewallpaper/comments/keh6w2/the_girls_in_antarctica_a_place_further_than_the/  |
 | Wallpaper: (Spoiler) T** I******** B******* L****  | Love, Chunibyo and Other Delusions! Season 1 Episode 12 (Kyoto Animation)  |
 | Wallpaper: (Spoiler) oh no  | ?  |
 | Wallpaper: (Spoiler) CLANNAD Family  | ?  |

@@ -31,6 +31,7 @@ if [[ "$@" == *"--credits"* ]]; then
 - $(eval_gettext Wallpaper): $(eval_gettext "Diary of Our Days at the Breakwater 2 by") ?
 - $(eval_gettext Wallpaper): $(eval_gettext "Your Name Mitsuha by") https://www.deviantart.com/ryuzuy/art/Your-Name-867355784
 - $(eval_gettext Wallpaper): $(eval_gettext "Your Name 2 by Shinkai Makoto, CoMix Wave Films")
+- $(eval_gettext Wallpaper): $(eval_gettext "Sora Yori Mo Tooi Basho by") https://www.reddit.com/r/Animewallpaper/comments/keh6w2/the_girls_in_antarctica_a_place_further_than_the/
 - $(eval_gettext Wallpaper): ($(eval_gettext "Spoiler")) $(eval_gettext "T** I******** B******* L**** by Kyoto Animation (Love, Chunibyo and Other Delusions! Season 1 Episode 12)")
 - $(eval_gettext Wallpaper): ($(eval_gettext "Spoiler")) $(eval_gettext "oh no by") ?
 - $(eval_gettext Wallpaper): ($(eval_gettext "Spoiler")) $(eval_gettext "CLANNAD Family by") ?
@@ -272,6 +273,13 @@ if [ ! $? -eq 0 ]; then
     exit 1
 else
     echo "$(eval_gettext "Downloaded the Your Name 2 wallpaper.")"
+fi
+wget https://i.redd.it/02c3t2v8zl561.png -O "/usr/share/weebpapers/(Moe) Yorimoi.png" > /dev/null 2>&1
+if [ ! $? -eq 0 ]; then
+    echo "$(eval_gettext "Oh no, an error occured downloading the Yoimoi wallpaper, the girls will never reach antarctica!") $(eval_gettext "Aborting now.")"
+    exit 1
+else
+    echo "$(eval_gettext "Downloaded the Yorimoi wallpaper.")"
 fi
     
 if [ "$MAJORSPOILERS" = 1 ]; then

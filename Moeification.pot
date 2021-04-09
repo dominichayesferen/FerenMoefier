@@ -138,6 +138,11 @@ msgstr ""
 msgid "Your Name Mitsuha by"
 msgstr ""
 
+#: Moeification.sh:34
+#, sh-format
+msgid "Sora Yori Mo Tooi Basho by"
+msgstr ""
+
 #: Moeification.sh:31
 #, sh-format
 msgid "Your Name 2 by Shinkai Makoto, CoMix Wave Films"
@@ -601,6 +606,11 @@ msgstr ""
 #: Moeification.sh:272
 #, sh-format
 msgid "Downloaded the Your Name 2 wallpaper."
+msgstr ""
+
+#: Moeification.sh:272
+#, sh-format
+msgid "Oh no, an error occured downloading the Yoimoi wallpaper, the girls will never reach antarctica!"
 msgstr ""
 
 #: Moeification.sh:276
