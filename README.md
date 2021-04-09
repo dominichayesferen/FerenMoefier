@@ -84,6 +84,7 @@ Check over in Releases: https://github.com/dominichayesferen/FerenMoefier/releas
 | Wallpaper: Your Name Mitsuha  | https://www.deviantart.com/ryuzuy/art/Your-Name-867355784  |
 | Wallpaper: Your Name 2  | Shinkai Makoto, CoMix Wave Films  |
 | Wallpaper: Sora Yori Mo Tooi Basho  | https://www.reddit.com/r/Animewallpaper/comments/keh6w2/the_girls_in_antarctica_a_place_further_than_the/  |
+| Wallpaper: Wonder Egg Priority  | https://teddit.net/r/Animewallpaper/comments/ll7dc5/ai_ohto_wonder_egg_priority_1920x1080/  |
 | Wallpaper: (Spoiler) T** I******** B******* L****  | Love, Chunibyo and Other Delusions! Season 1 Episode 12 (Kyoto Animation)  |
 | Wallpaper: (Spoiler) oh no  | ?  |
 | Wallpaper: (Spoiler) CLANNAD Family  | ?  |

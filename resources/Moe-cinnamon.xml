@@ -81,6 +81,14 @@
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
+
+  <wallpaper deleted="false">
+    <name>Wonder Egg Priority</name>
+    <filename>/usr/share/weebpapers/(Moe) Ai Ohto.png</filename>
+    <options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
   
   <wallpaper deleted="false">
     <name>Madoka Magica MCs</name>
