@@ -275,14 +275,14 @@ if [ ! $? -eq 0 ]; then
 else
     echo "$(eval_gettext "Downloaded the Your Name 2 wallpaper.")"
 fi
-wget https://i.redd.it/02c3t2v8zl561.png -O "/usr/share/weebpapers/(Moe) Yorimoi.png" > /dev/null 2>&1
+wget https://upload.nikurasu.de/pictures/02c3t2v8zl561.png -O "/usr/share/weebpapers/(Moe) Yorimoi.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
-    echo "$(eval_gettext "Oh no, an error occured downloading the Yoimoi wallpaper, the girls will never reach antarctica!") $(eval_gettext "Aborting now.")"
+    echo "$(eval_gettext "Oh no, an error occured downloading the Yoimoi wallpaper. The girls will never reach Antarctica!") $(eval_gettext "Aborting now.")"
     exit 1
 else
     echo "$(eval_gettext "Downloaded the Yorimoi wallpaper.")"
 fi
-wget https://teddit.net/pics/w:null_35a1utot7vh61.png -O "/usr/share/weebpapers/(Moe) Ai Ohto.png" > /dev/null 2>&1
+wget https://upload.nikurasu.de/pictures/141311.png -O "/usr/share/weebpapers/(Moe) Ai Ohto.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oh no, an Error occured downloading the Wonder Egg Priority wallpaper!") $(eval_gettext "Aborting now.")"
     exit 1
