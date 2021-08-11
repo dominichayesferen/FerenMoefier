@@ -286,28 +286,28 @@ else
 fi
 wget https://cdn.discordapp.com/attachments/659129643823136808/874931829227008010/BloomIntoYou.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 1.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
-    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 1 wallpaper.") $(eval_gettext "Aborting now.")"
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 1 wallpaper. Did they kiss?") $(eval_gettext "Aborting now.")"
     exit 1
 else
     echo "$(eval_gettext "Downloaded the Bloom Into You 1 wallpaper.")"
 fi
 wget https://cdn.discordapp.com/attachments/659129643823136808/875055355346948156/BloomIntoYou2.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 2.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
-    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 2 wallpaper.") $(eval_gettext "Aborting now.")"
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 2 wallpaper. Did they run out of the picture?") $(eval_gettext "Aborting now.")"
     exit 1
 else
     echo "$(eval_gettext "Downloaded the Bloom Into You 2 wallpaper.")"
 fi
 wget https://cdn.discordapp.com/attachments/659129643823136808/875055319611482112/BloomIntoYou3.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 3.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
-    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 3 wallpaper.") $(eval_gettext "Aborting now.")"
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 3 wallpaper. You woke her up!!") $(eval_gettext "Aborting now.")"
     exit 1
 else
     echo "$(eval_gettext "Downloaded the Bloom Into You 3 wallpaper.")"
 fi
 wget https://cdn.discordapp.com/attachments/659129643823136808/875055317325594634/BloomIntoYou4.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 4.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
-    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 4 wallpaper.") $(eval_gettext "Aborting now.")"
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 4 wallpaper. Touko was too busy with the fireworks...") $(eval_gettext "Aborting now.")"
     exit 1
 else
     echo "$(eval_gettext "Downloaded the Bloom Into You 4 wallpaper.")"
@@ -321,7 +321,7 @@ else
 fi
 wget https://cdn.discordapp.com/attachments/659129643823136808/875055338842361947/BloomIntoYou6.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 6.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
-    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 6 wallpaper.") $(eval_gettext "Aborting now.")"
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 6 wallpaper. Touko was too shy.") $(eval_gettext "Aborting now.")"
     exit 1
 else
     echo "$(eval_gettext "Downloaded the Bloom Into You 6 wallpaper.")"
