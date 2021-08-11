@@ -31,6 +31,15 @@ if [[ "$@" == *"--credits"* ]]; then
 - $(eval_gettext Wallpaper): $(eval_gettext "Diary of Our Days at the Breakwater 2 by") ?
 - $(eval_gettext Wallpaper): $(eval_gettext "Your Name Mitsuha by") https://www.deviantart.com/ryuzuy/art/Your-Name-867355784
 - $(eval_gettext Wallpaper): $(eval_gettext "Your Name 2 by Shinkai Makoto, CoMix Wave Films")
+- $(eval_gettext Wallpaper): $(eval_gettext "Bloom Into You 1 by Nakatani Nio, Kadokawa corperation Tokio")
+- $(eval_gettext Wallpaper): $(eval_gettext "Bloom Into You 2 by Nakatani Nio, Kadokawa corperation Tokio")
+- $(eval_gettext Wallpaper): $(eval_gettext "Bloom Into You 3 by Nakatani Nio, Kadokawa corperation Tokio")
+- $(eval_gettext Wallpaper): $(eval_gettext "Bloom Into You 4 by Nakatani Nio, Kadokawa corperation Tokio")
+- $(eval_gettext Wallpaper): $(eval_gettext "Bloom Into You 5 by Nakatani Nio, Kadokawa corperation Tokio")
+- $(eval_gettext Wallpaper): $(eval_gettext "Bloom Into You 6 by Nakatani Nio, Kadokawa corperation Tokio")
+- $(eval_gettext Wallpaper): $(eval_gettext "Bloom Into You 7 by Nakatani Nio, Kadokawa corperation Tokio")
+- $(eval_gettext Wallpaper): $(eval_gettext "Bloom Into You 8 by Nakatani Nio, Kadokawa corperation Tokio")
+- $(eval_gettext Wallpaper): $(eval_gettext "Bloom Into You 8.1 by Nakatani Nio, Kadokawa corperation Tokio")
 - $(eval_gettext Wallpaper): $(eval_gettext "Sora Yori Mo Tooi Basho by") https://www.reddit.com/r/Animewallpaper/comments/keh6w2/the_girls_in_antarctica_a_place_further_than_the/
 - $(eval_gettext Wallpaper): $(eval_gettext "Wonder Egg Priority by") https://teddit.net/r/Animewallpaper/comments/ll7dc5/ai_ohto_wonder_egg_priority_1920x1080/
 - $(eval_gettext Wallpaper): ($(eval_gettext "Spoiler")) $(eval_gettext "T** I******** B******* L**** by Kyoto Animation (Love, Chunibyo and Other Delusions! Season 1 Episode 12)")
@@ -274,6 +283,69 @@ if [ ! $? -eq 0 ]; then
     exit 1
 else
     echo "$(eval_gettext "Downloaded the Your Name 2 wallpaper.")"
+fi
+wget https://cdn.discordapp.com/attachments/659129643823136808/874931829227008010/BloomIntoYou.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 1.png" > /dev/null 2>&1
+if [ ! $? -eq 0 ]; then
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 1 wallpaper.") $(eval_gettext "Aborting now.")"
+    exit 1
+else
+    echo "$(eval_gettext "Downloaded the Bloom Into You 1 wallpaper.")"
+fi
+wget https://cdn.discordapp.com/attachments/659129643823136808/875055355346948156/BloomIntoYou2.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 2.png" > /dev/null 2>&1
+if [ ! $? -eq 0 ]; then
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 2 wallpaper.") $(eval_gettext "Aborting now.")"
+    exit 1
+else
+    echo "$(eval_gettext "Downloaded the Bloom Into You 2 wallpaper.")"
+fi
+wget https://cdn.discordapp.com/attachments/659129643823136808/875055319611482112/BloomIntoYou3.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 3.png" > /dev/null 2>&1
+if [ ! $? -eq 0 ]; then
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 3 wallpaper.") $(eval_gettext "Aborting now.")"
+    exit 1
+else
+    echo "$(eval_gettext "Downloaded the Bloom Into You 3 wallpaper.")"
+fi
+wget https://cdn.discordapp.com/attachments/659129643823136808/875055317325594634/BloomIntoYou4.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 4.png" > /dev/null 2>&1
+if [ ! $? -eq 0 ]; then
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 4 wallpaper.") $(eval_gettext "Aborting now.")"
+    exit 1
+else
+    echo "$(eval_gettext "Downloaded the Bloom Into You 4 wallpaper.")"
+fi
+wget https://cdn.discordapp.com/attachments/659129643823136808/875055322442641448/BloomIntoYou5.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 5.png" > /dev/null 2>&1
+if [ ! $? -eq 0 ]; then
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 5 wallpaper.") $(eval_gettext "Aborting now.")"
+    exit 1
+else
+    echo "$(eval_gettext "Downloaded the Bloom Into You 5 wallpaper.")"
+fi
+wget https://cdn.discordapp.com/attachments/659129643823136808/875055338842361947/BloomIntoYou6.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 6.png" > /dev/null 2>&1
+if [ ! $? -eq 0 ]; then
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 6 wallpaper.") $(eval_gettext "Aborting now.")"
+    exit 1
+else
+    echo "$(eval_gettext "Downloaded the Bloom Into You 6 wallpaper.")"
+fi
+wget https://cdn.discordapp.com/attachments/659129643823136808/875055333557563402/BloomIntYou7.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 7.png" > /dev/null 2>&1
+if [ ! $? -eq 0 ]; then
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 7 wallpaper.") $(eval_gettext "Aborting now.")"
+    exit 1
+else
+    echo "$(eval_gettext "Downloaded the Bloom Into You 7 wallpaper.")"
+fi
+wget https://cdn.discordapp.com/attachments/659129643823136808/875055340356513832/BloomIntoYou8.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 8.png" > /dev/null 2>&1
+if [ ! $? -eq 0 ]; then
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 8 wallpaper.") $(eval_gettext "Aborting now.")"
+    exit 1
+else
+    echo "$(eval_gettext "Downloaded the Bloom Into You 8 wallpaper.")"
+fi
+wget https://cdn.discordapp.com/attachments/659129643823136808/875055328369188905/BloomIntoYou8.1.png -O "/usr/share/weebpapers/(Moe) BloomIntoYou 8.1.png" > /dev/null 2>&1
+if [ ! $? -eq 0 ]; then
+    echo "$(eval_gettext "Oops, an error occured downloading the Bloom Into You 8.1 wallpaper.") $(eval_gettext "Aborting now.")"
+    exit 1
+else
+    echo "$(eval_gettext "Downloaded the Bloom Into You 8.1 wallpaper.")"
 fi
 wget https://upload.nikurasu.de/pictures/02c3t2v8zl561.png -O "/usr/share/weebpapers/(Moe) Yorimoi.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
