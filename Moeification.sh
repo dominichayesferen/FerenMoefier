@@ -135,7 +135,7 @@ mkdir /usr/share/weebpapers > /dev/null 2>&1
 wget http://blog-imgs-36.fc2.com/a/a/n/aanimekabegami/68e9328c.jpg -O "/usr/share/weebpapers/(Moe) Moebuntu Default.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Moebuntu Default wallpaper!") $(eval_gettext "$(eval_gettext "Aborting now.")")"
-    sleep 10
+    exit 1
 else
     echo "$(eval_gettext "Downloaded the Moebuntu 'Default' wallpaper.")"
 fi
