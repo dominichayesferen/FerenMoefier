@@ -135,133 +135,133 @@ mkdir /usr/share/weebpapers > /dev/null 2>&1
 wget http://blog-imgs-36.fc2.com/a/a/n/aanimekabegami/68e9328c.jpg -O "/usr/share/weebpapers/(Moe) Moebuntu Default.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Moebuntu Default wallpaper!") $(eval_gettext "$(eval_gettext "Aborting now.")")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Moebuntu 'Default' wallpaper.")"
 fi
 wget https://i.ytimg.com/vi/PsARNhjWdHc/maxresdefault.jpg -O "/usr/share/weebpapers/(Moe) Mari.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Mari wallpaper! It's Not Joke.") $(eval_gettext "$(eval_gettext "Aborting now.")")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Mari wallpaper.")"
 fi
 wget https://i.redd.it/0k81wur3x8a21.png -O "/usr/share/weebpapers/(Moe) Rikka Windows.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Rikka uncovering Windows wallpaper!") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Rikka uncovering Windows wallpaper.")"
 fi
 wget https://oboitut.com/uploads/posts/oboitut.com_10989.jpg -O "/usr/share/weebpapers/(Moe) Rikka and Yuuta Fantasy.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Rikka and Yuuta Fantasy wallpaper! Guess it was just a fantasy after all...") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Rikka and Yuuta Fantasy wallpaper.")"
 fi
 wget https://i.imgur.com/WdqYXph.jpg -O "/usr/share/weebpapers/(Moe) Rikka Train Station.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Rikka at Train Station wallpaper!") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Rikka at Train Station wallpaper. TAKE ME ONNNNNNNNNN!")"
 fi
 wget https://cdn.discordapp.com/attachments/741701321874472990/787449057488011294/clannad_wallpaper_at_the_foot_of_the_hill_by_mr123spiky_d8kilp5.jpg -O "/usr/share/weebpapers/(Moe) CLANNAD.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the CLANNAD wallpaper!") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the CLANNAD wallpaper.")"
 fi
 wget http://images4.fanpop.com/image/photos/19300000/Hi-Kyubey-mahou-shoujo-madoka-magica-19305621-1500-1033.jpg -O "/usr/share/weebpapers/(Moe) Madoka Magica MCs.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Madoka Magica MCs wallpaper! That darn entropy, probably.") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Madoka Magica Main Characters wallpaper.")"
 fi
 wget https://images4.alphacoders.com/296/thumb-1920-296026.jpg -O "/usr/share/weebpapers/(Moe) Best Girl from Meduka.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Best Madoka Magica Girl wallpaper! Being meguka is suffering.") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Best Madoka Magica Girl wallpaper.")"
 fi
 wget https://i2.hdslb.com/bfs/archive/18c16a4675b6106fc4001074040f31c5d872b915.jpg -O "/usr/share/weebpapers/(Moe) anohana.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Anohana wallpaper! Respect her privacy, I guess.") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Anohana wallpaper.")"
 fi
 wget https://i.imgur.com/6gtDb9r.jpg -O "/usr/share/weebpapers/(Moe) Windows 7 Waifu.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Windows 7 Waifu wallpaper! Leave her be now she graduated, SMH.") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Windows 7 Waifu wallpaper.")"
 fi
 wget https://i.redd.it/l16umf7245901.jpg -O "/usr/share/weebpapers/(Moe) Windows 10 Waifu.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Windows 10 Waifu wallpaper! Probably too bloated to carry.") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Windows 10 Waifu wallpaper.")"
 fi
 wget https://cdn.discordapp.com/attachments/161953839853993984/780224215654989824/24.jpg -O "/usr/share/weebpapers/(Moe) Yuuta.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Yuuta wallpaper! Don't call him Dark Flame Master now, will ya?") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Yuuta wallpaper.")"
 fi
 wget https://cdn.discordapp.com/attachments/161953839853993984/776821283240280104/21.jpg -O "/usr/share/weebpapers/(Moe) More Chuuni.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading another Chunibyo wallpaper! What delusional circumstances, eh.") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded another Chunibyo wallpaper.")"
 fi
 wget https://i.pinimg.com/originals/12/02/9f/12029fd2ff5bf26c6005c2c1573bdf6f.jpg -O "/usr/share/weebpapers/(Moe) Dango dango dango dango.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "My apologies, I was crying too much to successfully download the Dango wallpaper.") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Dango dango dango dango wallpaper.")"
 fi
 wget https://i.pinimg.com/originals/bd/8d/bf/bd8dbf8fdfc559870b80a4d968b724b8.jpg -O "/usr/share/weebpapers/(Moe) No Escape From Snow Halation.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Snow Halation wallpaper! You've escaped for now.") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Snow Halation wallpaper.")"
 fi
 wget https://cdn.discordapp.com/attachments/473183956137934858/782758685368909864/dazhgft-c6a57dc7-9971-4bbb-aea7-b7336e71ce23.png -O "/usr/share/weebpapers/(Moe) Minimal K-On.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the K-On! wallpaper!") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the K-On! wallpaper.")"
 fi
 wget https://i.imgur.com/Ckgx70Q.jpg -O "/usr/share/weebpapers/(Moe) Diary of Our Days at the Breakwater 2.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading another Diary of Our Days at the Breakwater wallpaper!") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded another Diary of Our Days at the Breakwater wallpaper.")"
 fi
 wget https://images7.alphacoders.com/737/737487.png -O "/usr/share/weebpapers/(Moe) Your Name Mitsuha.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Your Name Mitsuha wallpaper! Something must have happened...") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Your Name Mitsuha wallpaper.")"
 fi
 wget http://www.kiminona.com/images/top/main_vsl02.jpg -O "/usr/share/weebpapers/(Moe) Your Name 2.png" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading the Your Name 2 wallpaper! Swapping bodies in 3, 2, 1...") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Your Name 2 wallpaper.")"
 fi
@@ -273,28 +273,28 @@ echo "${RED}$(eval_gettext "Downloading Major Spoiler wallpapers... The snow is 
 wget https://livedoor.blogimg.jp/poterobo/imgs/e/4/e4cd77b1.jpg -O "/usr/share/weebpapers/(Moe) The Invisible Boundary Lines.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Sorry, I was too busy trying not to cry that I didn't successfully download the Invisible Boundary Lines wallpaper.") $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded the Invisible Boundary Lines wallpaper.")"
 fi
 wget https://i.ytimg.com/vi/hlnrN7gdF1w/maxresdefault.jpg -O "/usr/share/weebpapers/(Moe) oh no.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading a CLANNAD After Story wallpaper!") ${RED}$(eval_gettext "Yet, the snow falls.")${NC} $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded a CLANNAD After Story wallpaper.")"
 fi
 wget https://hdwallpaperim.com/wp-content/uploads/2017/08/22/81240-Clannad.jpg -O "/usr/share/weebpapers/(Moe) CLANNAD Family.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading another CLANNAD After Story wallpaper!") ${RED}$(eval_gettext "Something's gonna happen to that happy family, won't it?")${NC} $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded another CLANNAD After Story wallpaper.")"
 fi
 wget https://pbs.twimg.com/media/C7HfgHDW4AI3ulY.jpg -O "/usr/share/weebpapers/(Moe) Never Forget.jpg" > /dev/null 2>&1
 if [ ! $? -eq 0 ]; then
     echo "$(eval_gettext "Oops, an error occured downloading another anohana wallpaper!") ${RED}$(eval_gettext "Don't forget about her.")${NC} $(eval_gettext "Aborting now.")"
-    exit 1
+    sleep 10
 else
     echo "$(eval_gettext "Downloaded another anohana wallpaper.")"
 fi
